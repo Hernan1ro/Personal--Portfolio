@@ -1,0 +1,31 @@
+:root {
+  --sm: 1.2rem;
+  --md: 1.6rem;
+  --lg: 2rem;
+  --yellow: #ebaf06;
+  --black: #0a0c10;
+  --bitcoin-orange: #f7931a;
+  --soft-orange: #ffe9d5;
+  --secondary-blue: #1a9af7;
+  --soft-blue: #e7f5ff;
+  --warn-black: #201e1c;
+  --black: #282623;
+  --grey: #bababa;
+  --off-white: #faf8f7;
+  --just-white: #fff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  background: linear-gradient(to right, var(--yellow), var(--black));
+}
+h1 {
+  font-size: 2.4rem;
+}
