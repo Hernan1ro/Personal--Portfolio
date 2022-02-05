@@ -35,3 +35,9 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
+
+@media (min-width: 768px) {
+  .icon-tabler-menu-2 {
+    display: none;
+  }
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import "./index.css";
+import MenuIcon from "../../components/MenuIcon";
 
 const Header = () => {
   return (
@@ -29,6 +30,7 @@ const Header = () => {
               <a href="#">Contact</a>
             </li>
           </ul>
+          <MenuIcon />
         </nav>
       </div>
     </header>
