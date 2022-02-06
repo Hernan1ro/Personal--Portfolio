@@ -2,13 +2,13 @@
   display: flex;
   background-image: linear-gradient(
       to right,
-      rgba(0, 0, 0, 0.5) 100%,
+      rgba(0, 0, 0, 0.7) 100%,
       rgba(0, 0, 0, 0.5) 100%,
       transparent 67%,
       transparent 100%
     ),
     url(/src/assets/heading.jpg);
-  height: 90vh;
+  height: 100vh;
   background-size: cover;
   background-position-x: center;
 }
@@ -24,6 +24,8 @@
 }
 .hero__container-title {
   font-size: 6rem;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 .hero__container-subtitle {
   font-size: var(--xxl);

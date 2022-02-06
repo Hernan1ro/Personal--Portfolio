@@ -4,9 +4,9 @@ import MenuIcon from "../../components/MenuIcon";
 
 const Header = () => {
   return (
-    <header>
+    <header className="header">
       <div className="container">
-        <nav>
+        <nav className="header__nav">
           <a href="#">
             <span>{"< Hernán />"}</span>
           </a>

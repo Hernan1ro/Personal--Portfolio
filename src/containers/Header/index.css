@@ -1,9 +1,11 @@
-header {
+.header {
   background-color: var(--background-color);
   border-bottom: 3px solid var(--primary-color);
   height: 7rem;
   display: flex;
   align-items: center;
+  position: fixed;
+  width: 100%;
 }
 span {
   color: var(--primary-color);
