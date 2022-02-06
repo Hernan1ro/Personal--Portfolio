@@ -8,7 +8,7 @@ const Header = () => {
       <div className="container">
         <nav>
           <a href="#">
-            <span>Hernán Mercado</span>
+            <span>{"< Hernán />"}</span>
           </a>
           <ul>
             <li>
