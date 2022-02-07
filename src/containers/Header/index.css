@@ -24,7 +24,7 @@ ul li a {
   color: var(--secondary-color);
   font-family: var(--main-font);
   font-size: var(--lg);
-  margin-right: 1rem;
+  margin-right: 2rem;
 }
 
 ul li a:hover {
