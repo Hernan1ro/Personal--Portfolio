@@ -1,15 +1,18 @@
 .header {
   background-color: var(--background-color);
   border-bottom: 3px solid var(--primary-color);
-  height: 7rem;
+  height: 6rem;
   display: flex;
   align-items: center;
   position: fixed;
   width: 100%;
 }
 span {
-  color: var(--primary-color);
+  color: var(--secondary-color);
   font-size: var(--xl);
+}
+span strong {
+  color: var(--primary-color);
 }
 nav {
   display: flex;

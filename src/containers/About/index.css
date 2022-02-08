@@ -1,7 +1,7 @@
 .about {
-  height: 100vh;
+  height: auto;
   text-align: center;
-  padding: 7rem 0 5rem 0;
+  padding: 8rem 0 5rem 0;
   background: linear-gradient(to right, rgb(16, 13, 63), rgb(28, 6, 35));
 }
 .about__title {
