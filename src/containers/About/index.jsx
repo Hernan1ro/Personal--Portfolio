@@ -1,12 +1,13 @@
 import React from "react";
 import "./index.css";
 import profile from "../../assets/profile.png";
+import Title from "../../components/Title";
 
 const About = () => {
   return (
     <section className="about">
       <div className="container">
-        <h2 className="about__title">About me</h2>
+        <Title title="About me" />
         <div className="about__container">
           <img className="about__photo" src={profile} alt="Hernán Mercado" />
           <div className="description-container">

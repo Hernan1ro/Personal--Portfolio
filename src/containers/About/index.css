@@ -4,12 +4,7 @@
   padding: 8rem 0 5rem 0;
   background: linear-gradient(to right, rgb(16, 13, 63), rgb(28, 6, 35));
 }
-.about__title {
-  color: var(--primary-color);
-  font-size: 4rem;
-  text-transform: uppercase;
-  margin-bottom: 5rem;
-}
+
 .about__photo {
   border-radius: 50%;
   width: 30rem;

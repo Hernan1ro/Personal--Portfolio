@@ -1,11 +1,12 @@
 import React from "react";
 import "./index.css";
 import { Icon } from "../../components/Icon/Icon";
+import Title from "../../components/Title";
 
 const Skills = () => {
   return (
     <section className="skills">
-      <h2 className="skills__title">My skills</h2>
+      <Title title="My Skills" />
       <div className="skills__container">
         <div className="skills__categories">
           <div className="category">Frontend</div>

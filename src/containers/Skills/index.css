@@ -1,8 +1,21 @@
 .skills {
-  background-color: var(--secondary-color);
   height: 100vh;
+  background: linear-gradient(
+    to right,
+    rgb(130 20 164),
+    rgb(65 21 186),
+    rgb(33 23 61)
+  );
 }
 
 .skills__logo {
   color: red;
+}
+
+.skill__icons-color {
+  color: var(--primary-color);
+  width: 5rem;
+}
+.skill__icons-color--active {
+  color: violet;
 }
