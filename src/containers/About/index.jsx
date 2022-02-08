@@ -6,8 +6,8 @@ import Title from "../../components/Title";
 const About = () => {
   return (
     <section className="about">
+      <Title title="About me" />
       <div className="container">
-        <Title title="About me" />
         <div className="about__container">
           <img className="about__photo" src={profile} alt="Hernán Mercado" />
           <div className="description-container">

@@ -13,11 +13,11 @@ const Skills = () => {
           <div className="category">Backend</div>
           <div className="category">Design</div>
         </div>
+        <div className="skills__logo-container">
+          <Icon name="html" className="skill__icons-color" />
+        </div>
+        <div className="skills__description-container">.</div>
       </div>
-      <div className="skills__logo-container">
-        <Icon name="html" className="skill__icons-color" />
-      </div>
-      <div className="skills__description-container">.</div>
     </section>
   );
 };

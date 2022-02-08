@@ -6,6 +6,11 @@
     rgb(65 21 186),
     rgb(33 23 61)
   );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5rem;
+  gap: 3rem;
 }
 
 .skills__logo {
