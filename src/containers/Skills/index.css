@@ -2,3 +2,7 @@
   background-color: var(--secondary-color);
   height: 100vh;
 }
+
+.skills__logo {
+  color: red;
+}

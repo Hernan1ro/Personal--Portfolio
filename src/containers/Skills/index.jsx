@@ -1,5 +1,6 @@
 import React from "react";
 import "./index.css";
+import { Icon } from "../../components/Icon/Icon";
 
 const Skills = () => {
   return (
@@ -13,12 +14,9 @@ const Skills = () => {
         </div>
       </div>
       <div className="skills__logo-container">
-        <img src="" alt="technologie logo" />
-        <img src="" alt="technologie logo" />
-        <img src="" alt="technologie logo" />
-        <img src="" alt="technologie logo" />
+        <Icon name="html" className="skill__icons-color" />
       </div>
-      .skills-descri
+      <div className="skills__description-container">.</div>
     </section>
   );
 };
