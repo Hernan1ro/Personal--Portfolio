@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Html = ({ className, width, height }) => {
   return (

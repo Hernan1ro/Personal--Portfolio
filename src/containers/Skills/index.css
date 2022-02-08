@@ -26,23 +26,36 @@
 .skills__categories {
   display: flex;
   justify-content: space-around;
-  height: 8rem;
+  height: 7rem;
   align-items: center;
   max-width: 70rem;
   margin: 0 auto;
 }
 .category {
   font-size: var(--lg);
-  color: var(--secondary-color);
+  color: var(--soft-purple);
+  padding-bottom: 0.5rem;
 }
-.skills__logo {
-  color: red;
-}
-
-.skill__icons-color {
+.category-active {
+  border-bottom: solid 2px var(--primary-color);
   color: var(--primary-color);
+}
+.skills__logo-container {
+  height: 5rem;
+  align-items: center;
+  max-width: 70rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.skill__icons-color {
+  fill: var(--soft-purple);
   width: 5rem;
 }
+.skill__icons-color:nth-child(1) {
+  fill: url(#gradient);
+  filter: drop-shadow(0.35px 3.35px 3px #0aa2e7);
+}
 .skill__icons-color--active {
-  color: violet;
+  color: var(--primary-color);
 }

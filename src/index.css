@@ -5,7 +5,9 @@
   /* Colors */
   --primary-color: #9500ff;
   --background-color: #1e0033;
+  --soft-purple: #a783ba;
   --secondary-color: rgb(241, 239, 239);
+  --gray: gray;
   /* Sizes */
   --sm: 1.2rem;
   --md: 1.6rem;
