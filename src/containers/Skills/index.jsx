@@ -14,7 +14,7 @@ const Skills = () => {
           <div className="category">Design</div>
         </div>
         <div className="skills__logo-container">
-          <Icon name="html" className="skill__icons-color" />
+          <Icon name="html" className="skill__icons-color-active" />
           <Icon name="javascript" className="skill__icons-color" />
           <Icon name="react" className="skill__icons-color" />
           <Icon name="node" className="skill__icons-color" />
