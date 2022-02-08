@@ -12,7 +12,29 @@
   padding-top: 5rem;
   gap: 3rem;
 }
-
+.skills__container {
+  height: auto;
+  background: linear-gradient(45deg, #00000057, transparent);
+  box-shadow: 0 10px 10px rgb(126 15 255 / 20%), 0 0 22px rgb(149 0 243);
+  /* background: var(--background-color); */
+  background: linear-gradient(
+    to right,
+    var(--background-color),
+    var(--primary-color)
+  );
+}
+.skills__categories {
+  display: flex;
+  justify-content: space-around;
+  height: 8rem;
+  align-items: center;
+  max-width: 70rem;
+  margin: 0 auto;
+}
+.category {
+  font-size: var(--lg);
+  color: var(--secondary-color);
+}
 .skills__logo {
   color: red;
 }
