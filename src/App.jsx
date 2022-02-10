@@ -2,6 +2,7 @@ import Header from "./containers/Header";
 import Hero from "./containers/Hero";
 import About from "./containers/About";
 import Skills from "./containers/Skills";
+import Projects from "./containers/Projects";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <About />
       <Skills />
+      <Projects />
     </>
   );
 }
