@@ -22,7 +22,7 @@ const Skills = () => {
           <Icon name="express" className="skill__icons-color" />
         </div>
         <div className="skills__description-container">
-          <div className="description-right">
+          <div className="description-left">
             <div>
               <Icon name="html" className="skill__icons-color-active" />
             </div>
@@ -34,7 +34,7 @@ const Skills = () => {
               sapiente harum modi repellendus.
             </p>
           </div>
-          <div className="description-left">
+          <div className="description-right">
             <div className="projects">
               <p>Number of projects</p>
               <p>15</p>
@@ -42,6 +42,18 @@ const Skills = () => {
             <div className="experience">
               <p>Experience (years)</p>
               <p>3</p>
+            </div>
+            <div className="progress-bar">
+              <div className="bar">
+                <div className="beginner"></div>
+                <div className="intermediate"></div>
+                <div className="advanced"></div>
+              </div>
+              <div className="levels">
+                <span>Beginner</span>
+                <span>Intermediate</span>
+                <span>Advanced</span>
+              </div>
             </div>
           </div>
         </div>
