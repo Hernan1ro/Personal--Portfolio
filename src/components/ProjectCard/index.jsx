@@ -1,11 +1,14 @@
 import React from "react";
+import "./index.css";
 
 const ProjectCard = ({ projectImg, Icon }) => {
   return (
     <article className="project-item">
       <img className="project-image" src={projectImg} alt="project image" />
       <div className="project-description">
-        <h5 className="project-description__title">FinAntApp</h5>
+        <h5 className="project-description__title">
+          Administrador de presupuesto
+        </h5>
         <span className="project-description__resume">
           Ant expenses manager to track your personal finance
         </span>
