@@ -24,13 +24,14 @@
   justify-content: space-around;
   height: 7rem;
   align-items: center;
-  max-width: 70rem;
+  max-width: 40rem;
   margin: 0 auto;
 }
 .category {
   font-size: var(--lg);
   color: var(--soft-purple);
   padding-bottom: 0.5rem;
+  cursor: pointer;
 }
 .category-active {
   border-bottom: solid 2px var(--primary-color);

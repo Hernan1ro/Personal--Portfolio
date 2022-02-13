@@ -17,6 +17,7 @@
   color: var(--soft-purple);
   font-size: var(--lg);
   padding-bottom: 3rem;
+  cursor: pointer;
 }
 .project-category-active {
   color: var(--primary-color);
@@ -30,6 +31,7 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   place-items: center;
+  align-items: baseline;
 }
 @media (min-width: 768px) {
   .projects-container {
