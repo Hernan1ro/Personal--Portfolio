@@ -13,16 +13,21 @@
 .icon-container {
   text-align: center;
 }
+.icon-container svg {
+  width: 4rem;
+  fill: var(--soft-purple);
+}
 .project-description {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
   padding: 2rem;
 }
 .project-description__title {
   font-size: var(--xl);
   text-align: center;
   color: var(--primary-color);
+  margin-bottom: 1rem;
 }
 .project-description__resume {
   font-size: var(--lg);

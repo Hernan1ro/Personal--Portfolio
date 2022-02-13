@@ -9,13 +9,21 @@ const Projects = () => {
   return (
     <section className="projects-section">
       <Title title={"Projects"} />
-      <div className="container projects-container">
-        <ProjectCard Icon={Icon} projectImg={projectImg} />
-        <ProjectCard Icon={Icon} projectImg={projectImg} />
-        <ProjectCard Icon={Icon} projectImg={projectImg} />
-        <ProjectCard Icon={Icon} projectImg={projectImg} />
-        <ProjectCard Icon={Icon} projectImg={projectImg} />
-        <ProjectCard Icon={Icon} projectImg={projectImg} />
+      <div className="container">
+        <div className="projects-categories">
+          <div className="project-category project-category-active">All</div>
+          <div className="project-category">React</div>
+          <div className="project-category">Javascript</div>
+          <div className="project-category">NodeJS</div>
+        </div>
+        <div className=" projects-container">
+          <ProjectCard Icon={Icon} projectImg={projectImg} />
+          <ProjectCard Icon={Icon} projectImg={projectImg} />
+          <ProjectCard Icon={Icon} projectImg={projectImg} />
+          <ProjectCard Icon={Icon} projectImg={projectImg} />
+          <ProjectCard Icon={Icon} projectImg={projectImg} />
+          <ProjectCard Icon={Icon} projectImg={projectImg} />
+        </div>
       </div>
     </section>
   );

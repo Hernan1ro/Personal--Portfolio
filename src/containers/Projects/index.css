@@ -5,6 +5,23 @@
   gap: 2rem;
   padding: 5rem 0 5rem 0;
 }
+.projects-categories {
+  display: flex;
+  justify-content: space-around;
+  height: 2rem;
+  max-width: 40rem;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+.project-category {
+  color: var(--soft-purple);
+  font-size: var(--lg);
+  padding-bottom: 3rem;
+}
+.project-category-active {
+  color: var(--primary-color);
+  border-bottom: solid 2px var(--primary-color);
+}
 .skill__icons-color {
   fill: var(--secondary-color);
 }
