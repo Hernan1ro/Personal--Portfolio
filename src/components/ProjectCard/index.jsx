@@ -14,10 +14,14 @@ const ProjectCard = ({ projectImg, Icon }) => {
         </span>
         <div className="icon-container">
           <Icon name="react" className="skill__icons-color" />
+          <Icon name="react" className="skill__icons-color" />
+          <Icon name="react" className="skill__icons-color" />
+          <Icon name="react" className="skill__icons-color" />
+          <Icon name="react" className="skill__icons-color" />
         </div>
         <div className="project-links">
           <a target="_blank" href="https://friendly-bhabha-bbe9e2.netlify.app/">
-            Preview demo
+            View demo
           </a>
           <a
             target="_black"
