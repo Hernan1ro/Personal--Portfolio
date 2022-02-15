@@ -7,7 +7,7 @@ import "./index.css";
 
 const Projects = () => {
   return (
-    <section className="projects-section">
+    <section id="projects" className="projects-section">
       <Title title={"Projects"} />
       <div className="container">
         <div className="projects-categories">

@@ -5,7 +5,7 @@ import Title from "../../components/Title";
 
 const About = () => {
   return (
-    <section className="about">
+    <section id="about" className="about">
       <Title title="About me" />
       <div className="container">
         <div className="about__container">
