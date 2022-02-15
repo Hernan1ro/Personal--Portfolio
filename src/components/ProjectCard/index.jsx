@@ -3,9 +3,9 @@ import "./index.css";
 
 const ProjectCard = ({ projectImg, Icon }) => {
   return (
-    <article className="project-item">
+    <figure className="project-item">
       <img className="project-image" src={projectImg} alt="project image" />
-      <div className="project-description">
+      <figcaption className="project-description">
         <h5 className="project-description__title">
           Administrador de presupuesto
         </h5>
@@ -30,8 +30,8 @@ const ProjectCard = ({ projectImg, Icon }) => {
             View code
           </a>
         </div>
-      </div>
-    </article>
+      </figcaption>
+    </figure>
   );
 };
 

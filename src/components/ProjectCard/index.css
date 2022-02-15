@@ -1,5 +1,6 @@
 .project-item {
   width: 100%;
+  min-width: 30rem;
   position: relative;
   border: solid 2px var(--primary-color);
   height: auto;
@@ -30,13 +31,13 @@
   line-height: 1.2;
 }
 .project-links {
-  display: none;
+  display: flex;
   justify-content: space-between;
   gap: 1rem;
 }
 .icon-container {
   text-align: center;
-  display: none;
+  /* display: none; */
 }
 .icon-container svg {
   width: 4rem;
@@ -52,12 +53,12 @@
   min-width: 4rem;
   text-align: center;
 }
-.project-description:hover > .project-links {
+/* .project-item:hover > .project-description .project-links {
   display: flex;
-}
-.project-description:hover > .icon-container {
+} */
+/* .project-item:hover > .project-description .icon-container {
   display: block;
-}
+} */
 @media (max-width: 425px) {
   .project-links a {
     font-size: var(--sm);
