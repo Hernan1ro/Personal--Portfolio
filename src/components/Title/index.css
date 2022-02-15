@@ -2,5 +2,6 @@
   color: var(--primary-color);
   font-size: 4rem;
   text-transform: uppercase;
+  align-items: center;
   /* margin-bottom: 5rem; */
 }
