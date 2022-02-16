@@ -9,9 +9,9 @@
 }
 
 .about__photo {
-  border-radius: 50%;
+  border-radius: 2rem;
   width: 30rem;
-  border: 5px solid var(--primary-color);
+  /* border: 5px solid var(--primary-color); */
   margin-bottom: 5rem;
 }
 .description-container {

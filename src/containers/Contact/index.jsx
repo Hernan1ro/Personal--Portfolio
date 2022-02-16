@@ -17,7 +17,23 @@ const Contact = () => {
           <div className="contact-form">
             <h3>Let's work together!</h3>
             <span>Send me a message so we can be in touch</span>
-            <form action=""></form>
+            <form action="">
+              <input type="text" name="name" placeholder="Your name" />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your email address"
+              />
+              <input type="text" name="subject" placeholder="Subject" />
+              <textarea
+                type="text"
+                name="menssage"
+                placeholder="Your message"
+                rows="5"
+                cols="20"
+              />
+              <button type="submit">Send your message</button>
+            </form>
           </div>
         </div>
       </div>
