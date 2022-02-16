@@ -4,6 +4,7 @@ import About from "./containers/About";
 import Skills from "./containers/Skills";
 import Projects from "./containers/Projects";
 import Contact from "./containers/Contact";
+import Footer from "./containers/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Skills />
       <Projects />
       <Contact />
+      <Footer />
     </>
   );
 }
