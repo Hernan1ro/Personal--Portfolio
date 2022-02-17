@@ -1,0 +1,21 @@
+#footer {
+  padding: 4rem 0;
+}
+.contact-info {
+  display: flex;
+  justify-content: space-around;
+}
+.contact-info .location,
+.contact-info .email {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+.contact-info .location span,
+.contact-info .email span {
+  font-size: var(--sm);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  /* font-weight: bold; */
+}

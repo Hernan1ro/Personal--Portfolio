@@ -1,10 +1,11 @@
 import React from "react";
 import PinIcon from "../../components/Icon/PinIcon.jsx";
 import EmailIcon from "../../components/Icon/Email.jsx";
+import "./index.css";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer id="footer" className="container">
       <div className="contact-info">
         <div className="location">
           <PinIcon />
