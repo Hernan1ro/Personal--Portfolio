@@ -17,7 +17,20 @@ const Footer = () => {
           <span>Hernandmf@gmail.com</span>
         </div>
       </div>
-      <div className="resume-info"></div>
+      <div className="resume-info">
+        <div className="about-me">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+          possimus ab ad reiciendis tempore? Repellat, voluptate consequuntur ex
+          consequatur ipsam similique necessitatibus perspiciatis magnam
+          aspernatur!
+        </div>
+        <div className="latest-projects">
+          <span>Budget manager</span>
+          <span>Budget manager</span>
+          <span>Budget manager</span>
+          <span>Budget manager</span>
+        </div>
+      </div>
       <div className="social-media"></div>
       <div className="copyright"></div>
     </footer>
