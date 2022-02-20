@@ -19,16 +19,31 @@ const Footer = () => {
       </div>
       <div className="resume-info">
         <div className="about-me">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-          possimus ab ad reiciendis tempore? Repellat, voluptate consequuntur ex
-          consequatur ipsam similique necessitatibus perspiciatis magnam
-          aspernatur!
+          <h6>About me</h6>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+            possimus ab ad reiciendis tempore? Repellat, voluptate consequuntur
+            ex consequatur ipsam similique necessitatibus perspiciatis magnam
+            aspernatur!
+          </p>
         </div>
         <div className="latest-projects">
-          <span>Budget manager</span>
-          <span>Budget manager</span>
-          <span>Budget manager</span>
-          <span>Budget manager</span>
+          <h6>Latest projects</h6>
+          <div className="latest-projects__container">
+            <span>Budget manager</span>
+            <span>Budget manager</span>
+            <span>Budget manager</span>
+            <span>Budget manager</span>
+          </div>
+        </div>
+        <div className="portfolio">
+          <h6>Portfolio</h6>
+          <div className="portfolio__container">
+            <span>ReactJS</span>
+            <span>Javascript</span>
+            <span>NodeJS</span>
+            <span>Full stack</span>
+          </div>
         </div>
       </div>
       <div className="social-media"></div>

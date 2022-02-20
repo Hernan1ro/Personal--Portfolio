@@ -19,3 +19,35 @@
   text-transform: uppercase;
   /* font-weight: bold; */
 }
+.resume-info {
+  gap: 2rem;
+  margin-top: 2rem;
+  padding: 2rem 0;
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(3, 1fr);
+}
+.about-me {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: var(--secondary-color);
+}
+.about-me h6,
+.portfolio h6,
+.latest-projects h6 {
+  font-size: var(--lg);
+  text-transform: uppercase;
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+.about-me p {
+  font-size: var(--md);
+}
+.latest-projects,
+.resume-info .portfolio {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: space-between;
+}
