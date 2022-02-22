@@ -5,8 +5,8 @@ import "./index.css";
 
 const Footer = () => {
   return (
-    <footer id="footer" className="container">
-      <div className="contact-info">
+    <footer id="footer">
+      <div className="contact-info container">
         <div className="location">
           <PinIcon />
           <span>Fundación - Magdalena</span>
@@ -17,7 +17,7 @@ const Footer = () => {
           <span>Hernandmf@gmail.com</span>
         </div>
       </div>
-      <div className="resume-info">
+      <div className="resume-info container">
         <div className="about-me">
           <h6>About me</h6>
           <p>
@@ -27,15 +27,6 @@ const Footer = () => {
             aspernatur!
           </p>
         </div>
-        <div className="latest-projects">
-          <h6>Latest projects</h6>
-          <div className="latest-projects__container">
-            <span>Budget manager</span>
-            <span>Budget manager</span>
-            <span>Budget manager</span>
-            <span>Budget manager</span>
-          </div>
-        </div>
         <div className="portfolio">
           <h6>Portfolio</h6>
           <div className="portfolio__container">
@@ -43,6 +34,15 @@ const Footer = () => {
             <span>Javascript</span>
             <span>NodeJS</span>
             <span>Full stack</span>
+          </div>
+        </div>
+        <div className="latest-projects">
+          <h6>Latest projects</h6>
+          <div className="latest-projects__container">
+            <span>Budget manager</span>
+            <span>Budget manager</span>
+            <span>Budget manager</span>
+            <span>Budget manager</span>
           </div>
         </div>
       </div>

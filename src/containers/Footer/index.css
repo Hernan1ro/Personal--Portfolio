@@ -22,10 +22,11 @@
 .resume-info {
   gap: 2rem;
   margin-top: 2rem;
-  padding: 2rem 0;
+  padding: 2rem;
   display: grid;
   place-items: center;
   grid-template-columns: repeat(3, 1fr);
+  align-items: baseline;
 }
 .about-me {
   display: flex;
@@ -45,9 +46,19 @@
   font-size: var(--md);
 }
 .latest-projects,
-.resume-info .portfolio {
+.portfolio {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+}
+.latest-projects__container,
+.resume-info .portfolio__container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
   align-items: space-between;
+}
+.latest-projects__container span,
+.portfolio__container span {
+  font-size: var(--md);
 }
