@@ -62,3 +62,19 @@
 .portfolio__container span {
   font-size: var(--md);
 }
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  align-items: center;
+}
+.social-media__container {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+}
+.social-icon {
+  width: 3rem;
+  fill: var(--soft-purple);
+  cursor: pointer;
+}

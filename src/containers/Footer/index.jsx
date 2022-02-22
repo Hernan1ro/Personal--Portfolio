@@ -1,6 +1,9 @@
 import React from "react";
 import PinIcon from "../../components/Icon/PinIcon.jsx";
 import EmailIcon from "../../components/Icon/Email.jsx";
+import NavPage from "../../components/NavPage";
+import { Icon } from "../../components/Icon/Icon";
+
 import "./index.css";
 
 const Footer = () => {
@@ -46,7 +49,20 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="social-media"></div>
+      <div className="social-media container">
+        <NavPage />
+        <div className="social-media__container">
+          <a target="_blank" href="">
+            <Icon name="twitter" className="social-icon" />
+          </a>
+          <a target="_blank" href="">
+            <Icon name="github" className="social-icon" />
+          </a>
+          <a target="_blank" href="">
+            <Icon name="linkedin" className="social-icon" />
+          </a>
+        </div>
+      </div>
       <div className="copyright"></div>
     </footer>
   );
