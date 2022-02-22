@@ -7,6 +7,7 @@ import { Icon } from "../../components/Icon/Icon";
 import "./index.css";
 
 const Footer = () => {
+  const year = new Date().getFullYear();
   return (
     <footer id="footer">
       <div className="contact-info container">
@@ -61,9 +62,22 @@ const Footer = () => {
           <a target="_blank" href="">
             <Icon name="linkedin" className="social-icon" />
           </a>
+          <a target="_blank" href="">
+            <Icon name="github" className="social-icon" />
+          </a>
+          <a target="_blank" href="">
+            <Icon name="linkedin" className="social-icon" />
+          </a>
         </div>
       </div>
-      <div className="copyright"></div>
+      <div className="copyright">
+        <div className="container">
+          <span>
+            LEARNING AND BUILDING SOFTWARE FROM COLOMBIA WITH ❤ SINCE 2019 | ©
+            2022 - {year}
+          </span>
+        </div>
+      </div>
     </footer>
   );
 };
