@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import "./index.css";
 import MenuIcon from "../../components/MenuIcon";
 import NavPage from "../../components/NavPage";
 
 const Header = () => {
+  const [menuActive, setMenuActive] = useState(false);
+  const handleClick = () => {
+    console.log("The menu has been clicked");
+    setMenuActive(!menuActive);
+  };
   return (
     <header className="header">
       <div className="container">
@@ -16,7 +21,9 @@ const Header = () => {
             </span>
           </a>
           <NavPage />
-          <MenuIcon />
+          <a onClick={() => handleClick()}>
+            <MenuIcon />
+          </a>
         </nav>
       </div>
     </header>
