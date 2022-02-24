@@ -1,9 +1,9 @@
 import React from "react";
 import "./index.css";
 
-const NavPage = () => {
+const NavPage = ({ menuActive }) => {
   return (
-    <ul className="nav-page">
+    <ul className={`nav-page  ${menuActive ? "nav-page-active" : null}`}>
       <li>
         <a href="#hero">Home</a>
       </li>

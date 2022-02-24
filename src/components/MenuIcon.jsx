@@ -1,8 +1,7 @@
-import React from "react";
-
-const MenuIcon = () => {
+const MenuIcon = ({ handleClick }) => {
   return (
     <svg
+      onClick={() => handleClick()}
       xmlns="http://www.w3.org/2000/svg"
       className="icon icon-tabler icon-tabler-menu-2"
       width={44}

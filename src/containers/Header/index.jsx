@@ -6,7 +6,6 @@ import NavPage from "../../components/NavPage";
 const Header = () => {
   const [menuActive, setMenuActive] = useState(false);
   const handleClick = () => {
-    console.log("The menu has been clicked");
     setMenuActive(!menuActive);
   };
   return (
@@ -20,10 +19,8 @@ const Header = () => {
               <strong>{" }"}</strong>
             </span>
           </a>
-          <NavPage />
-          <a onClick={() => handleClick()}>
-            <MenuIcon />
-          </a>
+          <NavPage menuActive={menuActive} />
+          <MenuIcon handleClick={handleClick} />
         </nav>
       </div>
     </header>
