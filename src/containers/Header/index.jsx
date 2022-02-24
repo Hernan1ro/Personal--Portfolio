@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./index.css";
 import MenuIcon from "../../components/MenuIcon";
+import CloseIcon from "../../components/Icon/CloseIcon";
 import NavPage from "../../components/NavPage";
 
 const Header = () => {
@@ -20,7 +21,11 @@ const Header = () => {
             </span>
           </a>
           <NavPage menuActive={menuActive} />
-          <MenuIcon handleClick={handleClick} />
+          {menuActive ? (
+            <CloseIcon handleClick={handleClick} />
+          ) : (
+            <MenuIcon handleClick={handleClick} />
+          )}
         </nav>
       </div>
     </header>
