@@ -20,3 +20,11 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
+.close-icon {
+  z-index: 1;
+}
+@media (min-width: 768px) {
+  .close-icon {
+    display: none;
+  }
+}

@@ -4,7 +4,7 @@ const CloseIcon = ({ handleClick }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      className="icon icon-tabler icon-tabler-x"
+      className="icon icon-tabler icon-tabler-x close-icon"
       onClick={() => handleClick()}
       width={44}
       height={44}

@@ -10,7 +10,7 @@ const Header = () => {
     setMenuActive(!menuActive);
   };
   return (
-    <header className="header">
+    <header className={`header ${menuActive ? "header-position-off" : null}`}>
       <div className="container">
         <nav className="header__nav">
           <a href="#">
