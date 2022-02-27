@@ -2,7 +2,7 @@ import React from "react";
 import PinIcon from "../../components/Icon/PinIcon.jsx";
 import EmailIcon from "../../components/Icon/Email.jsx";
 import NavPage from "../../components/NavPage";
-import SocialMediaLinks from "../../components/socialMediaLinks";
+import SocialMediaLinks from "../../components/SocialMediaLinks";
 
 import "./index.css";
 

@@ -1,5 +1,5 @@
 import "./index.css";
-import { Icon } from "../../components/Icon/Icon";
+import { Icon } from "../Icon/Icon";
 
 const SocialMediaLinks = () => {
   return (

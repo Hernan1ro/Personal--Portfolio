@@ -2,6 +2,7 @@ import React from "react";
 import "./index.css";
 import profile from "../../assets/profile.png";
 import Title from "../../components/Title";
+import SocialMediaLinks from "../../components/SocialMediaLinks";
 
 const About = () => {
   return (
@@ -9,7 +10,10 @@ const About = () => {
       <Title title="About me" />
       <div className="container">
         <div className="about__container">
-          <img className="about__photo" src={profile} alt="Hernán Mercado" />
+          <div className="about__photo-container">
+            <img className="about__photo" src={profile} alt="Hernán Mercado" />
+            <SocialMediaLinks />
+          </div>
           <div className="description-container">
             <p className="about__description">
               I'm a <strong>Frontend Developer</strong> with 2 years of
