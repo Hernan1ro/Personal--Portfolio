@@ -10,29 +10,33 @@ const About = () => {
       <Title title="About me" />
       <div className="container">
         <div className="about__container">
-          <div className="about__photo-container">
-            <img className="about__photo" src={profile} alt="Hernán Mercado" />
-            <SocialMediaLinks />
+          <div className="about__container-image">
+            <div className="about__photo-container">
+              <img
+                className="about__photo"
+                src={profile}
+                alt="Hernán Mercado"
+              />
+              <SocialMediaLinks />
+            </div>
           </div>
           <div className="description-container">
             <p className="about__description">
-              I'm a <strong>Frontend Developer</strong> with 2 years of
-              experience in web technologies Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Doloremque natus dolorum vero
-              accusantium aliquam ipsum cum labore, blanditiis, fugit harum eum
-              neque quo, maiores laborum corporis enim fuga repellendus
-              officiis? Harum maiores magni amet, omnis explicabo odio fugit
-              voluptates nisi?
+              I'm a <strong>Frontend Developer Jr</strong> with a focus on the
+              development of solutions through high impact and scalability
+              software, oriented to industry, values and technology as a means
+              to be part of the transformation and growth of our economy.
             </p>
             <p className="about__description">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas
-              consectetur repellendus illo consequatur quia laudantium excepturi
-              magnam incidunt similique quibusdam iure doloremque expedita
-              deserunt, aliquid, dolore totam labore natus odit!{" "}
-              <a href="https://drive.google.com/uc?id=1sNAaHilxkUWjJs1VVE8Bwd1G3DRF0a7F&export=download">
-                DOWNLOAD RESUME
-              </a>
+              Based in <em>Fundación - Colombia</em> I'm apassionate about
+              learning new things, building software, creating digital products
+              and personal projects for the industry and community{" "}
             </p>
+          </div>
+          <div className="about-cv-link">
+            <a href="https://drive.google.com/uc?id=1sNAaHilxkUWjJs1VVE8Bwd1G3DRF0a7F&export=download">
+              DOWNLOAD RESUME
+            </a>
           </div>
         </div>
       </div>

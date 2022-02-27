@@ -1,7 +1,6 @@
 .section__title {
   color: var(--primary-color);
-  font-size: 4rem;
+  font-size: var(--xxl);
   text-transform: uppercase;
   align-items: center;
-  /* margin-bottom: 5rem; */
 }
