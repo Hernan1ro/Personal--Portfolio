@@ -1,0 +1,10 @@
+.social-media__container {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+}
+.social-icon {
+  width: 3rem;
+  fill: var(--soft-purple);
+  cursor: pointer;
+}
