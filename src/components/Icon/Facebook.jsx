@@ -1,10 +1,10 @@
 import React from "react";
 
-const Youtube = ({ className, width, height }) => {
+const Facebook = ({ className, width, height }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      className={`icon icon-tabler icon-tabler-brand-youtube ${className}`}
+      className={`icon icon-tabler icon-tabler-brand-facebook ${className}`}
       width={width}
       height={height}
       viewBox="0 0 24 24"
@@ -15,10 +15,9 @@ const Youtube = ({ className, width, height }) => {
       strokeLinejoin="round"
     >
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x={3} y={5} width={18} height={14} rx={4} />
-      <path d="M10 9l5 3l-5 3z" />
+      <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
     </svg>
   );
 };
 
-export { Youtube };
+export { Facebook };

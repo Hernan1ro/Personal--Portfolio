@@ -30,7 +30,7 @@ const About = () => {
             <p className="about__description">
               Based in <em>Fundación - Colombia</em> I'm apassionate about
               learning new things, building software, creating digital products
-              and personal projects for the industry and community{" "}
+              and personal projects for the industry and community.
             </p>
           </div>
           <div className="about-cv-link">
