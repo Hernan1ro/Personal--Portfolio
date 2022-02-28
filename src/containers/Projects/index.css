@@ -23,9 +23,9 @@
   color: var(--primary-color);
   border-bottom: solid 2px var(--primary-color);
 }
-.skill__icons-color {
+/* .skill__icons-color {
   fill: var(--secondary-color);
-}
+} */
 .projects-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

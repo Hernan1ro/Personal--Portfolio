@@ -11,21 +11,12 @@ const Skills = () => {
   const [managementActive, setManagementActive] = useState(false);
   const [filter, setFilter] = useState("frontend");
 
-  const categories = [
-    frontendActive,
-    backendActive,
-    designActive,
-    managementActive,
-  ];
-
-  console.log(skillData);
   const desactivateCategories = () => {
     setFrontendActive(false);
     setBackendActive(false);
     setDesignActive(false);
     setManagementActive(false);
   };
-  console.log(skillData[0].case[0]);
 
   const selectCategory = (category) => {
     switch (category) {
@@ -84,13 +75,15 @@ const Skills = () => {
           </div>
         </div>
         <div className="skills__logo-container">
-          {}
-          <Icon name="html" className="skill__icons-color-active" />
-          <Icon name="javascript" className="skill__icons-color" />
-          <Icon name="react" className="skill__icons-color" />
-          <Icon name="node" className="skill__icons-color" />
-          <Icon name="css" className="skill__icons-color" />
-          <Icon name="express" className="skill__icons-color" />
+          {skillData
+            .filter((data) => data.category === filter)
+            .map((icon) => (
+              <Icon
+                key={icon.id}
+                name={icon.name}
+                className="skill__icons-color"
+              />
+            ))}
         </div>
         <div className="skills__description-container">
           <div className="description-left">
