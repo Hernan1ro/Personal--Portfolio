@@ -1,24 +1,29 @@
-import React from "react";
+import React, { useState } from "react";
 import "./index.css";
 import { Icon } from "../../components/Icon/Icon";
 import Title from "../../components/Title";
 import { skillData } from "./skillData";
 
 const Skills = () => {
+  const [frontendActive, setFrontendActive] = useState(true);
+  const [backendActive, setBackendActive] = useState(false);
+  const [designActive, setDesignActive] = useState(false);
+  const [managementActive, setManagementActive] = useState(false);
+
   console.log(skillData);
   const selectCategory = (category) => {
     switch (category) {
       case "backend":
-        console.log("backend seleccionado");
+        setBackendActive(true);
         break;
       case "frontend":
-        console.log("frontend seleccionado");
+        setFrontendActive(true);
         break;
       case "design":
-        console.log("design seleccionado");
+        setDesignActive(true);
         break;
       case "management":
-        console.log("management seleccionado");
+        setManagementActive(true);
         break;
     }
   };
@@ -29,19 +34,27 @@ const Skills = () => {
         <div className="skills__categories">
           <div
             onClick={() => selectCategory("frontend")}
-            className="category category-active"
+            className={`category ${frontendActive ? "category-active" : null}`}
           >
             Frontend
           </div>
-          <div onClick={() => selectCategory("backend")} className="category">
+          <div
+            onClick={() => selectCategory("backend")}
+            className={`category ${backendActive ? "category-active" : null}`}
+          >
             Backend
           </div>
-          <div onClick={() => selectCategory("design")} className="category">
+          <div
+            onClick={() => selectCategory("design")}
+            className={`category ${designActive ? "category-active" : null}`}
+          >
             Design
           </div>
           <div
             onClick={() => selectCategory("management")}
-            className="category"
+            className={`category ${
+              managementActive ? "category-active" : null
+            }`}
           >
             Management
           </div>
