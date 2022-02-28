@@ -6,15 +6,45 @@ import { skillData } from "./skillData";
 
 const Skills = () => {
   console.log(skillData);
+  const selectCategory = (category) => {
+    switch (category) {
+      case "backend":
+        console.log("backend seleccionado");
+        break;
+      case "frontend":
+        console.log("frontend seleccionado");
+        break;
+      case "design":
+        console.log("design seleccionado");
+        break;
+      case "management":
+        console.log("management seleccionado");
+        break;
+    }
+  };
   return (
     <section id="skills" className="skills">
       <Title title="My Skills" />
       <div className="skills__container container">
         <div className="skills__categories">
-          <div className="category category-active">Frontend</div>
-          <div className="category">Backend</div>
-          <div className="category">Design</div>
-          <div className="category">Management</div>
+          <div
+            onClick={() => selectCategory("frontend")}
+            className="category category-active"
+          >
+            Frontend
+          </div>
+          <div onClick={() => selectCategory("backend")} className="category">
+            Backend
+          </div>
+          <div onClick={() => selectCategory("design")} className="category">
+            Design
+          </div>
+          <div
+            onClick={() => selectCategory("management")}
+            className="category"
+          >
+            Management
+          </div>
         </div>
         <div className="skills__logo-container">
           <Icon name="html" className="skill__icons-color-active" />
