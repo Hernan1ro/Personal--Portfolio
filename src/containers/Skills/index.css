@@ -28,7 +28,7 @@
   margin: 0 auto;
 }
 .category {
-  font-size: var(--lg);
+  font-size: var(--md);
   color: var(--soft-purple);
   padding-bottom: 0.5rem;
   cursor: pointer;
@@ -47,10 +47,10 @@
 }
 .skill__icons-color {
   fill: var(--soft-purple);
-  width: 5rem;
+  width: 4rem;
 }
 .skill__icons-color-active {
-  width: 5rem;
+  width: 4rem;
   fill: var(--primary-color);
   filter: drop-shadow(0.35px 3.35px 3px var(--primary-color));
 }

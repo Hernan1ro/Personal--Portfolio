@@ -2,8 +2,10 @@ import React from "react";
 import "./index.css";
 import { Icon } from "../../components/Icon/Icon";
 import Title from "../../components/Title";
+import { skillData } from "./skillData";
 
 const Skills = () => {
+  console.log(skillData);
   return (
     <section id="skills" className="skills">
       <Title title="My Skills" />
@@ -12,6 +14,7 @@ const Skills = () => {
           <div className="category category-active">Frontend</div>
           <div className="category">Backend</div>
           <div className="category">Design</div>
+          <div className="category">Management</div>
         </div>
         <div className="skills__logo-container">
           <Icon name="html" className="skill__icons-color-active" />

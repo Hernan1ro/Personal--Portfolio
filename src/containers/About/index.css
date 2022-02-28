@@ -78,7 +78,7 @@
   transition-duration: 0.5s;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   .description-container {
     flex-direction: column;
     gap: 2rem;
