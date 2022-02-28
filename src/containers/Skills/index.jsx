@@ -9,21 +9,45 @@ const Skills = () => {
   const [backendActive, setBackendActive] = useState(false);
   const [designActive, setDesignActive] = useState(false);
   const [managementActive, setManagementActive] = useState(false);
+  const [filter, setFilter] = useState("frontend");
+
+  const categories = [
+    frontendActive,
+    backendActive,
+    designActive,
+    managementActive,
+  ];
 
   console.log(skillData);
+  const desactivateCategories = () => {
+    setFrontendActive(false);
+    setBackendActive(false);
+    setDesignActive(false);
+    setManagementActive(false);
+  };
+  console.log(skillData[0].case[0]);
+
   const selectCategory = (category) => {
     switch (category) {
       case "backend":
+        desactivateCategories();
         setBackendActive(true);
+        setFilter("backend");
         break;
       case "frontend":
+        desactivateCategories();
         setFrontendActive(true);
+        setFilter("frontend");
         break;
       case "design":
+        desactivateCategories();
         setDesignActive(true);
+        setFilter("design");
         break;
       case "management":
+        desactivateCategories();
         setManagementActive(true);
+        setFilter("management");
         break;
     }
   };
@@ -60,6 +84,7 @@ const Skills = () => {
           </div>
         </div>
         <div className="skills__logo-container">
+          {}
           <Icon name="html" className="skill__icons-color-active" />
           <Icon name="javascript" className="skill__icons-color" />
           <Icon name="react" className="skill__icons-color" />

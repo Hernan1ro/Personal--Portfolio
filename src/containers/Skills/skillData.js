@@ -7,7 +7,7 @@ export const skillData = [
     progressBarClassName: "skill__experience-progress-dynamic skill__html",
     iconClassName: "skill__icons-color",
     iconClassNameActive: "skill__icons-color--active",
-    case: ["frontend"],
+    category: "frontend",
     name: "html",
     title: "HTML5",
     description:
@@ -21,7 +21,7 @@ export const skillData = [
     progressBarClassName: "skill__experience-progress-dynamic skill__css",
     iconClassName: "skill__icons-color",
     iconClassNameActive: "skill__icons-color--active",
-    case: ["frontend"],
+    category: "frontend",
     name: "css",
     title: "CSS3",
     description:
@@ -35,7 +35,7 @@ export const skillData = [
     progressBarClassName: "skill__experience-progress-dynamic skill__bem",
     iconClassName: "skill__icons-color",
     iconClassNameActive: "skill__icons-color--active",
-    case: ["frontend"],
+    category: "frontend",
     name: "bem",
     title: "BEM",
     description:
@@ -49,7 +49,7 @@ export const skillData = [
     progressBarClassName: "skill__experience-progress-dynamic skill__sass",
     iconClassName: "skill__icons-color",
     iconClassNameActive: "skill__icons-color--active",
-    case: ["frontend"],
+    category: "frontend",
     name: "sass",
     title: "Sass",
     description:
@@ -64,7 +64,7 @@ export const skillData = [
       "skill__experience-progress-dynamic skill__javascript",
     iconClassName: "skill__icons-color",
     iconClassNameActive: "skill__icons-color--active",
-    case: ["frontend"],
+    category: "frontend",
     name: "javascript",
     title: "Javascript",
     description:
@@ -78,7 +78,7 @@ export const skillData = [
     progressBarClassName: "skill__experience-progress-dynamic skill__react",
     iconClassName: "skill__icons-color",
     iconClassNameActive: "skill__icons-color--active",
-    case: ["frontend"],
+    category: "frontend",
     name: "react",
     title: "React",
     description:
@@ -92,7 +92,7 @@ export const skillData = [
     progressBarClassName: "skill__experience-progress-dynamic skill__redux",
     iconClassName: "skill__icons-color",
     iconClassNameActive: "skill__icons-color--active",
-    case: ["frontend"],
+    category: "frontend",
     name: "redux",
     title: "Redux",
     description:
@@ -106,7 +106,7 @@ export const skillData = [
     progressBarClassName: "skill__experience-progress-dynamic skill__nextjs",
     iconClassName: "skill__icons-color",
     iconClassNameActive: "skill__icons-color--active",
-    case: ["frontend"],
+    category: "frontend",
     name: "nextjs",
     title: "Next JS",
     description:
@@ -120,7 +120,7 @@ export const skillData = [
     progressBarClassName: "skill__experience-progress-dynamic skill__node",
     iconClassName: "skill__icons-color",
     iconClassNameActive: "skill__icons-color--active",
-    case: ["backend"],
+    category: "backend",
     name: "node",
     title: "Node JS",
     description:
@@ -134,7 +134,7 @@ export const skillData = [
     progressBarClassName: "skill__experience-progress-dynamic skill__express",
     iconClassName: "skill__icons-color",
     iconClassNameActive: "skill__icons-color--active",
-    case: ["backend"],
+    category: "backend",
     name: "express",
     title: "Express",
     description:
@@ -148,7 +148,7 @@ export const skillData = [
     progressBarClassName: "skill__experience-progress-dynamic skill__mongodb",
     iconClassName: "skill__icons-color",
     iconClassNameActive: "skill__icons-color--active",
-    case: ["backend"],
+    category: "backend",
     name: "mongodb",
     title: "Mongo DB",
     description:
@@ -162,7 +162,7 @@ export const skillData = [
     progressBarClassName: "skill__experience-progress-dynamic skill__firebase",
     iconClassName: "skill__icons-color",
     iconClassNameActive: "skill__icons-color--active",
-    case: ["backend"],
+    category: "backend",
     name: "firebase",
     title: "Firebase",
     description:
@@ -176,7 +176,7 @@ export const skillData = [
     progressBarClassName: "skill__experience-progress-dynamic skill__styled",
     iconClassName: "skill__icons-color ",
     iconClassNameActive: "skill__icons-color--active",
-    case: ["frontend"],
+    category: "frontend",
     name: "styledcomponents",
     title: "Styled Components",
     description:
@@ -191,7 +191,7 @@ export const skillData = [
       "skill__experience-progress-dynamic skill__materialui",
     iconClassName: "skill__icons-color",
     iconClassNameActive: "skill__icons-color--active",
-    case: ["frontend"],
+    category: "frontend",
     name: "materialui",
     title: "Material UI",
     description:
@@ -205,7 +205,7 @@ export const skillData = [
     progressBarClassName: "skill__experience-progress-dynamic skill__git",
     iconClassName: "skill__icons-color",
     iconClassNameActive: "skill__icons-color--active",
-    case: ["management"],
+    category: "management",
     name: "git",
     title: "Git",
     description:
@@ -219,7 +219,7 @@ export const skillData = [
     progressBarClassName: "skill__experience-progress-dynamic skill__figma",
     iconClassName: "skill__icons-color",
     iconClassNameActive: "skill__icons-color--active",
-    case: ["design"],
+    category: "design",
     name: "figma",
     title: "Figma",
     description:
@@ -233,7 +233,7 @@ export const skillData = [
     progressBarClassName: "skill__experience-progress-dynamic skill__leader",
     iconClassName: "skill__icons-color",
     iconClassNameActive: "skill__icons-color--active",
-    case: ["management"],
+    category: "management",
     name: "leader",
     title: "Leadership",
     description:
@@ -247,7 +247,7 @@ export const skillData = [
     progressBarClassName: "skill__experience-progress-dynamic skill__teamwork",
     iconClassName: "skill__icons-color",
     iconClassNameActive: "skill__icons-color--active",
-    case: ["management"],
+    category: "management",
     name: "teamwork",
     title: "Teamwork/Collaborate",
     description:
@@ -261,7 +261,7 @@ export const skillData = [
     progressBarClassName: "skill__experience-progress-dynamic skill__language",
     iconClassName: "skill__icons-color",
     iconClassNameActive: "skill__icons-color--active",
-    case: ["management"],
+    category: "management",
     name: "language",
     title: "Bilingual",
     description:
