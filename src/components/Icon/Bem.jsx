@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-const Bem = ({ className, width, height }) => {
+const Bem = ({ className, width, height, setIcon }) => {
   return (
     <svg
       className={className}
@@ -9,6 +9,7 @@ const Bem = ({ className, width, height }) => {
       viewBox="0 0 256 212"
       xmlns="http://www.w3.org/2000/svg"
       preserveAspectRatio="xMinYMin meet"
+      onClick={() => setIcon("bem")}
     >
       <title>BEM icon</title>
       <defs>

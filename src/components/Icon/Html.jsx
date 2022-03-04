@@ -1,6 +1,6 @@
 import React from "react";
 
-const Html = ({ className, width, height }) => {
+const Html = ({ className, width, height, setIcon }) => {
   return (
     <svg
       className={className}
@@ -8,6 +8,7 @@ const Html = ({ className, width, height }) => {
       height={height}
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 50 50"
+      onClick={() => setIcon("html")}
     >
       <title>HTML icon</title>
       <defs>

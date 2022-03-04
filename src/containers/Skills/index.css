@@ -48,6 +48,11 @@
 .skill__icons-color {
   fill: var(--soft-purple);
   width: 4rem;
+  cursor: pointer;
+}
+.skill__icon-color:hover {
+  filter: drop-shadow(0.35px 3.35px 3px var(--primary-color));
+  fill: var(--primary-color);
 }
 .skill__icons-color-active {
   width: 4rem;

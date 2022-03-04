@@ -10,6 +10,7 @@ const Skills = () => {
   const [designActive, setDesignActive] = useState(false);
   const [managementActive, setManagementActive] = useState(false);
   const [filter, setFilter] = useState("frontend");
+  const [icon, setIcon] = useState("html");
 
   const desactivateCategories = () => {
     setFrontendActive(false);
@@ -77,13 +78,21 @@ const Skills = () => {
         <div className="skills__logo-container">
           {skillData
             .filter((data) => data.category === filter)
-            .map((icon) => (
-              <Icon
-                key={icon.id}
-                name={icon.name}
-                className="skill__icons-color"
-              />
-            ))}
+            .map((skillIcon) => {
+              if (skillIcon.name === icon) {
+                console.log(icon + " seleccionado");
+              }
+              return (
+                <Icon
+                  key={skillIcon.id}
+                  name={skillIcon.name}
+                  className={`skill__icons-color ${
+                    skillIcon.name === icon ? "skill__icons-color-active" : null
+                  }`}
+                  setIcon={setIcon}
+                />
+              );
+            })}
         </div>
         <div className="skills__description-container">
           <div className="description-left">

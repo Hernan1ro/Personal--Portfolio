@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-const Css = ({ className, width, height }) => {
+const Css = ({ className, width, height, setIcon }) => {
   return (
     <svg
       role="img"
@@ -9,6 +9,7 @@ const Css = ({ className, width, height }) => {
       className={className}
       height={height}
       width={width}
+      onClick={() => setIcon("css")}
     >
       <title>CSS icon</title>
       <defs>
