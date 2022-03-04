@@ -19,27 +19,28 @@ const Skills = () => {
     setManagementActive(false);
   };
 
+  const filterCategory = (category) => {
+    desactivateCategories();
+    setFilter(category);
+  };
+
   const selectCategory = (category) => {
     switch (category) {
       case "backend":
-        desactivateCategories();
+        filterCategory("backend");
         setBackendActive(true);
-        setFilter("backend");
         break;
       case "frontend":
-        desactivateCategories();
+        filterCategory("frontend");
         setFrontendActive(true);
-        setFilter("frontend");
         break;
       case "design":
-        desactivateCategories();
+        filterCategory("design");
         setDesignActive(true);
-        setFilter("design");
         break;
       case "management":
-        desactivateCategories();
+        filterCategory("management");
         setManagementActive(true);
-        setFilter("management");
         break;
     }
   };
@@ -79,9 +80,6 @@ const Skills = () => {
           {skillData
             .filter((data) => data.category === filter)
             .map((skillIcon) => {
-              if (skillIcon.name === icon) {
-                console.log(icon + " seleccionado");
-              }
               return (
                 <Icon
                   key={skillIcon.id}
