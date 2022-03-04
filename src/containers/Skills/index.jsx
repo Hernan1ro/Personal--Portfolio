@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./index.css";
 import { Icon } from "../../components/Icon/Icon";
 import Title from "../../components/Title";
+import TechnologyInfo from "../../components/TechnologyInfo";
 import { skillData } from "./skillData";
 
 const Skills = () => {
@@ -29,18 +30,22 @@ const Skills = () => {
       case "backend":
         filterCategory("backend");
         setBackendActive(true);
+        setIcon("node");
         break;
       case "frontend":
         filterCategory("frontend");
         setFrontendActive(true);
+        setIcon("html");
         break;
       case "design":
         filterCategory("design");
         setDesignActive(true);
+        setIcon("figma");
         break;
       case "management":
         filterCategory("management");
         setManagementActive(true);
+        setIcon("git");
         break;
     }
   };
@@ -93,40 +98,22 @@ const Skills = () => {
             })}
         </div>
         <div className="skills__description-container">
-          <div className="description-left">
-            <div>
-              <Icon name={icon} className="skill__icons-color-active" />
-            </div>
-            <span>HTML</span>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Praesentium reiciendis deserunt expedita eveniet ipsum tempora
-              ratione. Nulla quod itaque enim a tempore nemo in, ut eveniet
-              sapiente harum modi repellendus.
-            </p>
-          </div>
-          <div className="description-right">
-            <div className="projects">
-              <p>Number of projects</p>
-              <p>15</p>
-            </div>
-            <div className="experience">
-              <p>Experience (years)</p>
-              <p>3</p>
-            </div>
-            <div className="progress-bar">
-              <div className="bar">
-                <div className="beginner"></div>
-                <div className="intermediate"></div>
-                <div className="advanced"></div>
-              </div>
-              <div className="levels">
-                <span>Beginner</span>
-                <span>Intermediate</span>
-                <span>Advanced</span>
-              </div>
-            </div>
-          </div>
+          {skillData.map((item) => {
+            if (item.name === icon) {
+              const { projectNumber, yearsExperience, title, description, id } =
+                item;
+              return (
+                <TechnologyInfo
+                  key={id}
+                  icon={icon}
+                  projectNumber={projectNumber}
+                  yearsExperience={yearsExperience}
+                  title={title}
+                  description={description}
+                />
+              );
+            }
+          })}
         </div>
       </div>
     </section>
