@@ -37,6 +37,7 @@ import { Twitter } from "./Twitter";
 import { Facebook } from "./Facebook";
 import { Youtube } from "./Youtube";
 import { Instagram } from "./Instagram";
+import { Mysql } from "./Mysql";
 
 const Icon = (props) => {
   // using a switch statement to add icons
@@ -117,6 +118,8 @@ const Icon = (props) => {
       return <Design {...props} />;
     case "management":
       return <Management {...props} />;
+    case "mysql":
+      return <Mysql {...props} />;
     default:
       <div />;
   }

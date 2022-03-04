@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-const ChartJS = ({ className, width, height }) => {
+const ChartJS = ({ className, width, height, setIcon }) => {
   return (
     <svg
       className={className}
@@ -8,6 +8,7 @@ const ChartJS = ({ className, width, height }) => {
       height={height}
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 -50 500 630"
+      onClick={() => setIcon("chartjs")}
     >
       <title>Chart js icon</title>
       <defs>

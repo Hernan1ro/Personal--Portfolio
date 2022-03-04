@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-const Mongodb = ({ className, width, height }) => {
+const Mongodb = ({ className, width, height, setIcon }) => {
   return (
     <svg
       className={className}
@@ -9,6 +9,7 @@ const Mongodb = ({ className, width, height }) => {
       role="img"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
+      onClick={() => setIcon("mongodb")}
     >
       <title>Mongo DB icon</title>
       <defs>

@@ -95,7 +95,7 @@ const Skills = () => {
         <div className="skills__description-container">
           <div className="description-left">
             <div>
-              <Icon name="html" className="skill__icons-color-active" />
+              <Icon name={icon} className="skill__icons-color-active" />
             </div>
             <span>HTML</span>
             <p>

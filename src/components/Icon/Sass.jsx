@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-const Sass = ({ className, width, height }) => {
+const Sass = ({ className, width, height, setIcon }) => {
   return (
     <svg
       className={className}
@@ -11,6 +11,7 @@ const Sass = ({ className, width, height }) => {
       xmlSpace="preserve"
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
+      onClick={() => setIcon("sass")}
     >
       <title>SASS icon</title>
       <defs>

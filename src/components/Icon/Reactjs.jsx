@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-const Reactjs = ({ className, width, height }) => {
+const Reactjs = ({ className, width, height, setIcon }) => {
   return (
     <svg
       className={className}
@@ -9,6 +9,7 @@ const Reactjs = ({ className, width, height }) => {
       role="img"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
+      onClick={() => setIcon("react")}
     >
       <title>React js icon</title>
       <defs>

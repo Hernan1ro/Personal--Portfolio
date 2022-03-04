@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-const Figma = ({ className, width, height }) => {
+const Figma = ({ className, width, height, setIcon }) => {
   return (
     <svg
       className={className}
@@ -8,6 +8,7 @@ const Figma = ({ className, width, height }) => {
       height={height}
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 50 50"
+      onClick={() => setIcon("figma")}
     >
       <title>Figma icon</title>
       <defs>

@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-const Git = ({ className, width, height }) => {
+const Git = ({ className, width, height, setIcon }) => {
   return (
     <svg
       className={className}
@@ -8,6 +8,7 @@ const Git = ({ className, width, height }) => {
       height={height}
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 50 50"
+      onClick={() => setIcon("git")}
     >
       <title>Git icon</title>
       <defs>

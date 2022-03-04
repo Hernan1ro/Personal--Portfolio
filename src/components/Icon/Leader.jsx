@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-const Leader = ({ className, width, height }) => {
+const Leader = ({ className, width, height, setIcon }) => {
   return (
     <svg
       className={className}
@@ -11,6 +11,7 @@ const Leader = ({ className, width, height }) => {
       xmlSpace="preserve"
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
+      onClick={() => setIcon("leader")}
     >
       <title>Leader icon</title>
       <defs>

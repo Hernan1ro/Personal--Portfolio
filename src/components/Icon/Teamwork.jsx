@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-const Teamwork = ({ className, width, height }) => {
+const Teamwork = ({ className, width, height, setIcon }) => {
   return (
     <svg
       className={className}
@@ -13,6 +13,7 @@ const Teamwork = ({ className, width, height }) => {
       y="0px"
       viewBox="0 0 512 512"
       xmlSpace="preserve"
+      onClick={() => setIcon("teamwork")}
     >
       <title>Teamwork icon</title>
       <defs>

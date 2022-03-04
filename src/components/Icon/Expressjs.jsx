@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-const Expressjs = ({ className, width, height }) => {
+const Expressjs = ({ className, width, height, setIcon }) => {
   return (
     <svg
       className={className}
@@ -13,6 +13,7 @@ const Expressjs = ({ className, width, height }) => {
       imageRendering="optimizeQuality"
       fillRule="evenodd"
       clipRule="evenodd"
+      onClick={() => setIcon("express")}
     >
       <title>Express js icon</title>
       <defs>

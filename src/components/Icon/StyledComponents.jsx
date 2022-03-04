@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-const StyledComponents = ({ className, height, width }) => {
+const StyledComponents = ({ className, height, width, setIcon }) => {
   return (
     <svg
       role="img"
@@ -9,6 +9,7 @@ const StyledComponents = ({ className, height, width }) => {
       width={width}
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 24 24"
+      onClick={() => setIcon("styledcomponents")}
     >
       <title>Styled components icon</title>
       <defs>

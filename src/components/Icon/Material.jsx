@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-const MaterialUI = ({ className, width, height }) => {
+const MaterialUI = ({ className, width, height, setIcon }) => {
   return (
     <svg
       className={className}
@@ -9,6 +9,7 @@ const MaterialUI = ({ className, width, height }) => {
       viewBox="0 0 1024 1024"
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"
+      onClick={() => setIcon("materialui")}
     >
       <title>Material UI icon</title>
       <defs>

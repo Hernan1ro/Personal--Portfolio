@@ -269,6 +269,19 @@ export const skillData = [
     projectNumber: "-",
     yearsExperience: "Native",
   },
+  {
+    id: uuidv4(),
+    icon: "mysql",
+    progressBarClassName: "skill__experience-progress-dynamic skill__language",
+    iconClassName: "skill__icons-color",
+    iconClassNameActive: "skill__icons-color--active",
+    category: "backend",
+    name: "mysql",
+    title: "Mysql DB",
+    description: "I use Mysql to build my project's database",
+    projectNumber: 2,
+    yearsExperience: 1,
+  },
 ];
 
 export const category = [

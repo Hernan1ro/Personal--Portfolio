@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-const Nextjs = ({ className, width, height }) => {
+const Nextjs = ({ className, width, height, setIcon }) => {
   return (
     <svg
       className={className}
@@ -8,6 +8,7 @@ const Nextjs = ({ className, width, height }) => {
       height={height}
       viewBox=".5 -.2 1023 1024.1"
       xmlns="http://www.w3.org/2000/svg"
+      onClick={() => setIcon("nextjs")}
     >
       <title>Next js icon</title>
       <defs>

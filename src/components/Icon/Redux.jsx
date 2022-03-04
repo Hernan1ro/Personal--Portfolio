@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-const Redux = ({ className, height, width }) => {
+const Redux = ({ className, height, width, setIcon }) => {
   return (
     <svg
       className={className}
@@ -8,6 +8,7 @@ const Redux = ({ className, height, width }) => {
       height={height}
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 50 50"
+      onClick={() => setIcon("redux")}
     >
       <title>Redux icon</title>
       <defs>
