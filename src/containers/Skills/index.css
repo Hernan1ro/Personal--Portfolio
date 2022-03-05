@@ -19,6 +19,11 @@
   background: var(--background-color);
   padding-bottom: 2rem;
 }
+@media (min-width: 768px) {
+  .skills__container {
+    height: 58rem;
+  }
+}
 .skills__categories {
   display: flex;
   justify-content: space-around;

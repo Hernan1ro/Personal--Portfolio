@@ -285,7 +285,7 @@ export const skillData = [
     description:
       "I speak both in English and Spanish with a high proficiency. ",
     projectNumber: "-",
-    yearsExperience: "Native",
+    yearsExperience: 4,
     level: 40,
   },
   {
