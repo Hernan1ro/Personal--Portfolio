@@ -6,9 +6,10 @@ const ProgressBar = () => {
       <h4>Proficiency</h4>
       <div className="progress-bar__container">
         <div className="bar">
-          <div className="beginner"></div>
+          <div className="beginner level-active"></div>
           <div className="intermediate"></div>
           <div className="advanced"></div>
+          <div className="bar-outline"></div>
         </div>
         <div className="levels">
           <span>Beginner</span>
