@@ -14,6 +14,7 @@ export const skillData = [
       "Stands for Hyper Text Markup Language. It allows the modification of web pages, as well as making adjustments to their appearance. It is also used to structure and present content for the web.",
     projectNumber: 15,
     yearsExperience: 2,
+    level: 40,
   },
   {
     id: uuidv4(),
@@ -28,6 +29,7 @@ export const skillData = [
       "A language that is used to illustrate the look, style, and format of a document written in any markup language. It is used to style and organize the layout of Web pages. CSS3 is the latest version of CSS. ",
     projectNumber: 5,
     yearsExperience: 1.5,
+    level: 40,
   },
   {
     id: uuidv4(),
@@ -42,6 +44,7 @@ export const skillData = [
       "BEM is a highly useful, powerful, and simple naming convention that makes your front-end code easier to read and understand, easier to work with, easier to scale, more robust and explicit, and a lot more strict.",
     projectNumber: 10,
     yearsExperience: 1,
+    level: 16,
   },
   {
     id: uuidv4(),
@@ -56,6 +59,7 @@ export const skillData = [
       "An extension of CSS that enables the use of variables, nested rules, imports and more. It also helps to keep things organized and allows you to create style sheets faster. It is compatible with all versions of CSS.",
     projectNumber: 15,
     yearsExperience: 1,
+    level: 32,
   },
   {
     id: uuidv4(),
@@ -71,6 +75,7 @@ export const skillData = [
       "JavaScript is commonly used to make dynamic pages, whose implementations allow client-side script to interact with the user. It is an interpreted programming language with object-oriented capabilities.",
     projectNumber: 18,
     yearsExperience: 1,
+    level: 40,
   },
   {
     id: uuidv4(),
@@ -85,6 +90,7 @@ export const skillData = [
       "React is a JavaScript library that is used to build web applications rendered in the client's browser with JavaScript. It lets you compose complex UIs from small and isolated pieces of code called “components”.",
     projectNumber: 15,
     yearsExperience: 1,
+    level: 40,
   },
   {
     id: uuidv4(),
@@ -99,6 +105,7 @@ export const skillData = [
       "Redux is a predictable state container designed to help you write JavaScript apps that behave consistently across client, server, and native environments and are easy to test.",
     projectNumber: 2,
     yearsExperience: 0.5,
+    level: 28,
   },
   {
     id: uuidv4(),
@@ -113,6 +120,7 @@ export const skillData = [
       "Next. js is a React framework that enables several extra features, including file based routing, server-side rendering and generating static websites, that has its own SEO benefits.",
     projectNumber: 2,
     yearsExperience: 0.25,
+    level: 16,
   },
   {
     id: uuidv4(),
@@ -127,6 +135,7 @@ export const skillData = [
       "Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser.",
     projectNumber: 5,
     yearsExperience: 1,
+    level: 16,
   },
   {
     id: uuidv4(),
@@ -141,6 +150,7 @@ export const skillData = [
       " Express.js, is a back end web application framework for Node.js. It is designed for building web applications and APIs.",
     projectNumber: 5,
     yearsExperience: 1,
+    level: 16,
   },
   {
     id: uuidv4(),
@@ -155,6 +165,7 @@ export const skillData = [
       "MongoDB is classified as a NoSQL database program. NoSQL is used as an alternative to traditional relational databases. MongoDB uses JSON-like documents with optional schemas.",
     projectNumber: 2,
     yearsExperience: 1,
+    level: 12,
   },
   {
     id: uuidv4(),
@@ -169,6 +180,7 @@ export const skillData = [
       "Firebase is a cloud platform that includes services like analytics, authentication, realtime databases, configuration and file storage.",
     projectNumber: 1,
     yearsExperience: 1,
+    level: 16,
   },
   {
     id: uuidv4(),
@@ -183,6 +195,7 @@ export const skillData = [
       "styled-components is a library for React that allows you to use component-level styles in your application that are written with a mixture of JavaScript and CSS using a technique called CSS-in-JS.",
     projectNumber: 2,
     yearsExperience: 0.25,
+    level: 16,
   },
   {
     id: uuidv4(),
@@ -198,6 +211,7 @@ export const skillData = [
       "Material-UI is simply a library that allows us to import and use different components to create a user interface in our React applications.",
     projectNumber: 2,
     yearsExperience: 0.25,
+    level: 4,
   },
   {
     id: uuidv4(),
@@ -212,6 +226,7 @@ export const skillData = [
       "Git is the most commonly used version control system. Git tracks the changes you make to files, and also makes collaboration easier, allowing changes by multiple people to all be merged into one source.",
     projectNumber: 27,
     yearsExperience: 1,
+    level: 32,
   },
   {
     id: uuidv4(),
@@ -226,6 +241,7 @@ export const skillData = [
       "Figma gives you all the tools you need for the design phase of the project, including vector tools which are capable of fully-fledged illustration, as well as prototyping capabilities.",
     projectNumber: 3,
     yearsExperience: 0.5,
+    level: 16,
   },
   {
     id: uuidv4(),
@@ -240,6 +256,7 @@ export const skillData = [
       "Leadership is a quality that not everyone takes up voluntarily. I have been leading teams to achieve organizational goals while maintaining a healthy, safe and friendly work environment.",
     projectNumber: "-",
     yearsExperience: 2,
+    level: 0,
   },
   {
     id: uuidv4(),
@@ -254,6 +271,7 @@ export const skillData = [
       "There is no progress/growth without teamwork. I believe this is a crucial skill for success, and I effectively collaborate in a team setting.",
     projectNumber: "-",
     yearsExperience: 7,
+    level: 0,
   },
   {
     id: uuidv4(),
@@ -263,11 +281,12 @@ export const skillData = [
     iconClassNameActive: "skill__icons-color--active",
     category: "management",
     name: "language",
-    title: "Bilingual",
+    title: "English",
     description:
       "I speak both in English and Spanish with a high proficiency. ",
     projectNumber: "-",
     yearsExperience: "Native",
+    level: 40,
   },
   {
     id: uuidv4(),
@@ -281,6 +300,7 @@ export const skillData = [
     description: "I use Mysql to build my project's database",
     projectNumber: 2,
     yearsExperience: 1,
+    level: 16,
   },
 ];
 

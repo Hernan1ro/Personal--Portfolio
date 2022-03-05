@@ -10,6 +10,7 @@ const TechnolgyInfo = ({
   description,
   projectNumber,
   yearsExperience,
+  level,
 }) => {
   return (
     <>
@@ -23,7 +24,7 @@ const TechnolgyInfo = ({
       <div className="description-right">
         <ProjectNumber projectNumber={projectNumber} />
         <ExperienceYears years={yearsExperience} />
-        <ProgressBar />
+        <ProgressBar level={level} />
       </div>
     </>
   );

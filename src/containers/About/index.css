@@ -55,6 +55,7 @@
   margin-top: 2rem;
 }
 .about-cv-link a {
+  font-size: var(--sm);
   padding: 2rem;
   border-radius: 1rem;
   font-weight: bold;

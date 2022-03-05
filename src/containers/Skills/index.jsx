@@ -100,8 +100,14 @@ const Skills = () => {
         <div className="skills__description-container">
           {skillData.map((item) => {
             if (item.name === icon) {
-              const { projectNumber, yearsExperience, title, description, id } =
-                item;
+              const {
+                projectNumber,
+                yearsExperience,
+                title,
+                description,
+                id,
+                level,
+              } = item;
               return (
                 <TechnologyInfo
                   key={id}
@@ -110,6 +116,7 @@ const Skills = () => {
                   yearsExperience={yearsExperience}
                   title={title}
                   description={description}
+                  level={level}
                 />
               );
             }
