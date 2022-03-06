@@ -4,7 +4,9 @@ import "./index.css";
 const ProjectCard = ({ projectImg, Icon }) => {
   return (
     <figure className="project-item">
-      <img className="project-image" src={projectImg} alt="project image" />
+      <a target="_blank" href="https://friendly-bhabha-bbe9e2.netlify.app/">
+        <img className="project-image" src={projectImg} alt="project image" />
+      </a>
       <figcaption className="project-description">
         <h5 className="project-description__title">
           Administrador de presupuesto
@@ -27,6 +29,7 @@ const ProjectCard = ({ projectImg, Icon }) => {
             target="_black"
             href="https://github.com/Hernan1ro/budget-control-app"
           >
+            <Icon name="github" className="skill__icons-color link-icon" />
             View code
           </a>
         </div>

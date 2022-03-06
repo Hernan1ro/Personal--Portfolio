@@ -33,6 +33,7 @@
   place-items: center;
   align-items: baseline;
   overflow: hidden;
+  padding: 1rem;
 }
 @media (min-width: 768px) {
   .projects-container {
