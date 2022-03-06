@@ -1,8 +1,8 @@
 import { v4 as uuidv4 } from "uuid";
-import FiTrack from "../../assets/fitrack.webp";
-import Disneyplus from "../../assets/disneyplus.webp";
-import Travelog from "../../assets/travelog.webp";
-import Covid from "../../assets/covid.webp";
+// import FiTrack from "../../assets/fitrack.webp";
+// import Disneyplus from "../../assets/disneyplus.webp";
+// import Travelog from "../../assets/travelog.webp";
+// import Covid from "../../assets/covid.webp";
 
 // Project Category Data
 export const ProjectCategory = [
@@ -53,7 +53,7 @@ export const ProjectsData = [
     id: uuidv4(),
     name: "COVID-19 DASHBOARD",
     category: ["all", "REACT-JS"],
-    image: Covid,
+    // image: Covid,
     description:
       " A covid-19 dashboard displaying live cases, total cases, recoveries and deaths. Built with React js library, Material-UI, chart js, react-leaflet and disease.sh API for covid-19 data. ",
     icon: [
@@ -73,7 +73,7 @@ export const ProjectsData = [
     id: uuidv4(),
     name: "Disney+",
     category: ["all", "REACT-JS"],
-    image: Disneyplus,
+    // image: Disneyplus,
     description:
       "A Front End React Disney plus clone using Redux and Redux toolkit for state management, styled components, and both user authentication and deployment done with Firebase.",
     icon: [
@@ -92,7 +92,7 @@ export const ProjectsData = [
     id: uuidv4(),
     name: "TRAVELOG",
     category: ["all", "REACT-JS", "FULL STACK"],
-    image: Travelog,
+    // image: Travelog,
     description:
       "A MERN stack travel log where the user can keep track of their travel locations. Using authorization and react hook form to log entries, mapbox and react map GL wrapper for mapbox. ",
     icon: ["html", "sass", "javascript", "react", "mapbox", "node", "mongodb"],
@@ -104,7 +104,7 @@ export const ProjectsData = [
     id: uuidv4(),
     name: "FITRACK",
     category: ["all", "REACT-JS", "FULL STACK"],
-    image: FiTrack,
+    // image: FiTrack,
     description:
       "A MERN stack, CRUD operations, SPA, based on the ongoing pandemic, FiTrack is a fitness application that helps users spending most of their time at home keep up with their mental and physical health. Built in 10 days.",
     icon: ["html", "sass", "javascript", "react", "node", "express", "mongodb"],

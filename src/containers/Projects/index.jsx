@@ -3,6 +3,7 @@ import Title from "../../components/Title";
 import { Icon } from "../../components/Icon/Icon";
 import projectImg from "../../assets/projects/budget-manager.png";
 import ProjectCard from "../../components/ProjectCard";
+import { ProjectsData } from "./ProjectsData";
 import "./index.css";
 
 const Projects = () => {
@@ -12,6 +13,8 @@ const Projects = () => {
   const [nodeActive, setNodeActive] = useState(false);
   const [filter, setFilter] = useState("all");
   console.log(filter);
+  console.log(ProjectsData);
+
   const desactivateCategories = () => {
     setAllActive(false);
     setReactActive(false);
