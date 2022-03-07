@@ -16,7 +16,7 @@ const ProjectCard = ({ projectData }) => {
         <span className="project-description__resume">{description}</span>
         <div className="icon-container">
           {icon.map((item) => (
-            <Icon key={id} name={item} className="skill__icons-color" />
+            <Icon key={item} name={item} className="skill__icons-color" />
           ))}
         </div>
         <div className="project-links">

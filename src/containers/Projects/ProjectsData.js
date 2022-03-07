@@ -3,6 +3,26 @@ import finanApp from "../../assets/projects/Finantapp.png";
 import batatabit from "../../assets/projects/batatabit.png";
 import brand from "../../assets/projects/Brand.png";
 import petgram from "../../assets/projects/petgram.png";
+import budgetManager from "../../assets/projects/budget-manager.png";
+import carBudgetCalculator from "../../assets/projects/car-budget-calculator.png";
+import carSeeker from "../../assets/projects/Car-seeker.png";
+import criptoQuery from "../../assets/projects/cripto-query.png";
+import crmIndexDB from "../../assets/projects/CRM-indexdb.png";
+import emailSimulator from "../../assets/projects/Email-simulator.png";
+import gatsbyHotel from "../../assets/projects/gatsby-hotel.png";
+import imageSeeker from "../../assets/projects/Imagen-seeker.png";
+import materializeWeb from "../../assets/projects/Materialize-website.png";
+import musicSeeker from "../../assets/projects/music-seeker.png";
+import platziVideo from "../../assets/projects/Platzi-video.png";
+import shoppingCart from "../../assets/projects/shopping-cart.png";
+import simonSays from "../../assets/projects/Simon-says-game.png";
+import theWebNews from "../../assets/projects/the-web-news.png";
+import travelAgency from "../../assets/projects/travel-agency.png";
+import usaMachinery from "../../assets/projects/USA-machinery.png";
+import vetManager from "../../assets/projects/vet-manager.png";
+import weekBudgetManager from "../../assets/projects/Weekly-budget-manager.png";
+import windowsCalculator from "../../assets/projects/windows-calculator.png";
+import youtubeClon from "../../assets/projects/Youtube-clon.png";
 
 // Dynamically setting project cards
 export const ProjectsData = [
