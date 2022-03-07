@@ -83,8 +83,8 @@ const Projects = () => {
         </div>
         <div className=" projects-container">
           {ProjectsData.map((project) => {
-            const { image } = project;
-            return <ProjectCard projectImg={image} />;
+            const { image, id } = project;
+            return <ProjectCard key={id} projectData={project} />;
           })}
         </div>
       </div>
