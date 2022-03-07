@@ -1,7 +1,8 @@
 import React from "react";
+import { Icon } from "../../components/Icon/Icon";
 import "./index.css";
 
-const ProjectCard = ({ projectImg, Icon }) => {
+const ProjectCard = ({ projectImg }) => {
   return (
     <figure className="project-item">
       <a target="_blank" href="https://friendly-bhabha-bbe9e2.netlify.app/">

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Title from "../../components/Title";
-import { Icon } from "../../components/Icon/Icon";
 import projectImg from "../../assets/projects/budget-manager.png";
 import ProjectCard from "../../components/ProjectCard";
 import { ProjectsData } from "./ProjectsData";
@@ -12,9 +11,7 @@ const Projects = () => {
   const [javascriptActive, setJavascriptActive] = useState(false);
   const [nodeActive, setNodeActive] = useState(false);
   const [filter, setFilter] = useState("all");
-  console.log(filter);
   console.log(ProjectsData);
-
   const desactivateCategories = () => {
     setAllActive(false);
     setReactActive(false);
@@ -86,12 +83,10 @@ const Projects = () => {
           </div>
         </div>
         <div className=" projects-container">
-          <ProjectCard Icon={Icon} projectImg={projectImg} />
-          <ProjectCard Icon={Icon} projectImg={projectImg} />
-          <ProjectCard Icon={Icon} projectImg={projectImg} />
-          <ProjectCard Icon={Icon} projectImg={projectImg} />
-          <ProjectCard Icon={Icon} projectImg={projectImg} />
-          <ProjectCard Icon={Icon} projectImg={projectImg} />
+          {ProjectsData.map((project) => {
+            const { image } = project;
+            return <ProjectCard projectImg={image} />;
+          })}
         </div>
       </div>
     </section>
