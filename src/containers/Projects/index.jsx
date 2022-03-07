@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Title from "../../components/Title";
-import projectImg from "../../assets/projects/budget-manager.png";
 import ProjectCard from "../../components/ProjectCard";
 import { ProjectsData } from "./ProjectsData";
 import "./index.css";

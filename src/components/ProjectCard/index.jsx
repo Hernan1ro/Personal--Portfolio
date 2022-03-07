@@ -5,9 +5,11 @@ import "./index.css";
 const ProjectCard = ({ projectImg }) => {
   return (
     <figure className="project-item">
-      <a target="_blank" href="https://friendly-bhabha-bbe9e2.netlify.app/">
-        <img className="project-image" src={projectImg} alt="project image" />
-      </a>
+      <div className="project-item__image-container">
+        <a target="_blank" href="https://friendly-bhabha-bbe9e2.netlify.app/">
+          <img className="project-image" src={projectImg} alt="project image" />
+        </a>
+      </div>
       <figcaption className="project-description">
         <h5 className="project-description__title">
           Administrador de presupuesto
