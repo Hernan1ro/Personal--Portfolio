@@ -1,6 +1,6 @@
 .project-item {
   width: 100%;
-  min-width: 30rem;
+  /* min-width: 30rem; */
   position: relative;
   border: solid 2px var(--primary-color);
   height: auto;
