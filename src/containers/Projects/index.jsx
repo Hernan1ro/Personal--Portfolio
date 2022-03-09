@@ -10,7 +10,6 @@ const Projects = () => {
   const [javascriptActive, setJavascriptActive] = useState(false);
   const [nodeActive, setNodeActive] = useState(false);
   const [filter, setFilter] = useState("all");
-  console.log(ProjectsData);
   const desactivateCategories = () => {
     setAllActive(false);
     setReactActive(false);
@@ -84,7 +83,9 @@ const Projects = () => {
         <div className=" projects-container">
           {ProjectsData.map((project) => {
             const { id } = project;
-            return <ProjectCard key={id} projectData={project} />;
+            if (project.category.includes(filter)) {
+              return <ProjectCard key={id} projectData={project} />;
+            }
           })}
         </div>
       </div>

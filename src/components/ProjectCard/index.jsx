@@ -7,7 +7,7 @@ const ProjectCard = ({ projectData }) => {
   return (
     <figure className="project-item">
       <div className="project-item__image-container">
-        <a target="_blank" href="https://friendly-bhabha-bbe9e2.netlify.app/">
+        <a target="_blank" href={demo}>
           <img className="project-image" src={image} alt="project image" />
         </a>
       </div>
