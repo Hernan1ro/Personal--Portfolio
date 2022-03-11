@@ -1,11 +1,13 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "./index.css";
 import Title from "../../components/Title";
+import Message from "../../components/Message";
 import contactImg from "../../assets/contact-pink.jpg";
 
 const Contact = () => {
   const form = useRef();
+  const [error, setError] = useState(true);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -17,8 +19,10 @@ const Contact = () => {
     ];
     if (value.includes("")) {
       console.log("form vació");
+      setError(true);
     } else {
       console.log("form lleno");
+      setError(false);
     }
 
     // emailjs
@@ -68,6 +72,12 @@ const Contact = () => {
               />
               <button type="submit">Send message</button>
             </form>
+            {error ? (
+              <Message
+                message={"Todos los campos son obligatorios"}
+                type={"error-message"}
+              />
+            ) : null}
           </div>
         </div>
       </div>
