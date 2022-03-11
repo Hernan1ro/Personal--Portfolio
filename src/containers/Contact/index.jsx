@@ -9,23 +9,34 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    const value = [
+      form.current[0].value,
+      form.current[1].value,
+      form.current[2].value,
+      form.current[3].value,
+    ];
+    if (value.includes("")) {
+      console.log("form vació");
+    } else {
+      console.log("form lleno");
+    }
 
-    emailjs
-      .sendForm(
-        "service_xatg6gi",
-        "template_4x3byze",
-        form.current,
-        "STkwfQTM519ZxYxFL"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-    e.target.reset();
+    // emailjs
+    //   .sendForm(
+    //     "service_xatg6gi",
+    //     "template_4x3byze",
+    //     form.current,
+    //     "STkwfQTM519ZxYxFL"
+    //   )
+    //   .then(
+    //     (result) => {
+    //       console.log(result.text);
+    //     },
+    //     (error) => {
+    //       console.log(error.text);
+    //     }
+    //   );
+    // e.target.reset();
   };
   return (
     <section id="contact" className="contact-section">
