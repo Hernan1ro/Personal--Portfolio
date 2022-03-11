@@ -7,7 +7,8 @@ import contactImg from "../../assets/contact-pink.jpg";
 
 const Contact = () => {
   const form = useRef();
-  const [error, setError] = useState(true);
+  const [error, setError] = useState(false);
+  const [success, setSuccess] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -20,9 +21,11 @@ const Contact = () => {
     if (value.includes("")) {
       console.log("form vació");
       setError(true);
+      setTimeout(() => setError(false), 3000);
     } else {
       console.log("form lleno");
-      setError(false);
+      setSuccess(true);
+      setTimeout(() => setSuccess(false), 3000);
     }
 
     // emailjs
@@ -72,10 +75,16 @@ const Contact = () => {
               />
               <button type="submit">Send message</button>
             </form>
-            {error ? (
+            {error && !success ? (
               <Message
-                message={"Todos los campos son obligatorios"}
+                message={"All fields has to be filled"}
                 type={"error-message"}
+              />
+            ) : null}
+            {success && !error ? (
+              <Message
+                message={"Your message was successfully sent!"}
+                type={"success-message"}
               />
             ) : null}
           </div>
