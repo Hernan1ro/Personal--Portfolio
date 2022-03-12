@@ -33,17 +33,18 @@
   place-items: center;
   align-items: baseline;
   overflow: hidden;
-  padding: 1rem;
   place-items: center;
 }
 @media (min-width: 768px) {
   .projects-container {
     grid-template-columns: repeat(2, 1fr);
+    padding: 2rem;
   }
 }
 @media (min-width: 1023px) {
   .projects-container {
     grid-template-columns: repeat(3, 1fr);
+    padding: 2rem;
   }
 }
 @media (max-width: 768px) {
