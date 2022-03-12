@@ -27,23 +27,22 @@ const Contact = () => {
       setSuccess(true);
       setTimeout(() => setSuccess(false), 3000);
     }
-
-    // emailjs
-    //   .sendForm(
-    //     "service_xatg6gi",
-    //     "template_4x3byze",
-    //     form.current,
-    //     "STkwfQTM519ZxYxFL"
-    //   )
-    //   .then(
-    //     (result) => {
-    //       console.log(result.text);
-    //     },
-    //     (error) => {
-    //       console.log(error.text);
-    //     }
-    //   );
-    // e.target.reset();
+    emailjs
+      .sendForm(
+        "service_xatg6gi",
+        "template_4x3byze",
+        form.current,
+        "STkwfQTM519ZxYxFL"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
   };
   return (
     <section id="contact" className="contact-section">
