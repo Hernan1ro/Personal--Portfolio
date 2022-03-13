@@ -9,6 +9,7 @@ const Projects = ({ filter, setFilter }) => {
   const [reactActive, setReactActive] = useState(false);
   const [javascriptActive, setJavascriptActive] = useState(false);
   const [nodeActive, setNodeActive] = useState(false);
+
   const desactivateCategories = () => {
     setAllActive(false);
     setReactActive(false);
