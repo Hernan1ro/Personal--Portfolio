@@ -4,12 +4,11 @@ import ProjectCard from "../../components/ProjectCard";
 import { ProjectsData } from "./ProjectsData";
 import "./index.css";
 
-const Projects = () => {
+const Projects = ({ filter, setFilter }) => {
   const [allActive, setAllActive] = useState(true);
   const [reactActive, setReactActive] = useState(false);
   const [javascriptActive, setJavascriptActive] = useState(false);
   const [nodeActive, setNodeActive] = useState(false);
-  const [filter, setFilter] = useState("all");
   const desactivateCategories = () => {
     setAllActive(false);
     setReactActive(false);

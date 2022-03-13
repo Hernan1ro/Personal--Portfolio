@@ -22,7 +22,7 @@ const About = () => {
           </div>
           <div className="description-container">
             <p className="about__description">
-              I'm a <strong>Frontend Developer Jr</strong> with a focus on the
+              I'm a <strong>Fullstack developer</strong> with a focus on the
               development of solutions through high impact and scalability
               software, oriented to industry, values and technology as a means
               to be part of the transformation and growth of our economy.

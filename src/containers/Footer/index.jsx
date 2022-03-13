@@ -8,7 +8,7 @@ import ProjectLink from "../../components/ProjectLink";
 
 import "./index.css";
 
-const Footer = () => {
+const Footer = ({ setFilter }) => {
   console.log(ProjectsData);
   const year = new Date().getFullYear();
   return (
@@ -28,25 +28,45 @@ const Footer = () => {
         <div className="about-me">
           <h6>About me</h6>
           <p>
-            I'm a Frontend Developer Jr with a focus on the development of
-            solutions through high impact and scalability software, oriented to
-            industry, values and technology as a means to be part of the
-            transformation and growth of our economy.
+            I'm Hernán Mercado a Fullstack developer with a focus on the
+            development of solutions through high impact and scalability
+            software, oriented to industry, values and technology as a means to
+            be part of the transformation and growth of our economy.
           </p>
         </div>
         <div className="portfolio">
           <h6>Portfolio</h6>
           <div className="portfolio__container">
-            <a href="#projects">
+            <a
+              onClick={() => {
+                setFilter("all");
+              }}
+              href="#projects"
+            >
               <span>All</span>
             </a>
-            <a href="#projects">
+            <a
+              onClick={() => {
+                setFilter("javascript");
+              }}
+              href="#projects"
+            >
               <span>JavaScript</span>
             </a>
-            <a href="#projects">
+            <a
+              onClick={() => {
+                setFilter("react");
+              }}
+              href="#projects"
+            >
               <span>React</span>
             </a>
-            <a href="#projects">
+            <a
+              onClick={() => {
+                setFilter("node");
+              }}
+              href="#projects"
+            >
               <span>Node</span>
             </a>
           </div>
