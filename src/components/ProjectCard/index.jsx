@@ -3,13 +3,16 @@ import { Icon } from "../../components/Icon/Icon";
 import "./index.css";
 
 const ProjectCard = ({ projectData }) => {
-  const { image, name, description, icon, github, demo, id } = projectData;
+  const { image, name, description, icon, github, demo, gif, id } = projectData;
   return (
     <figure className="project-item">
       <div className="project-item__image-container">
-        <a target="_blank" href={demo}>
-          <img className="project-image" src={image} alt="project image" />
-        </a>
+        <div className="link__image">
+          <a target="_blank" href={demo}>
+            <img className="project-image" src={image} alt="project image" />
+            <img className="hover-image" src={gif} alt="project image" />
+          </a>
+        </div>
       </div>
       <figcaption className="project-description">
         <h5 className="project-description__title">{name}</h5>

@@ -39,7 +39,7 @@ export const ProjectsData = [
     id: uuidv4(),
     name: "USA Machinery web",
     category: ["all", "react"],
-    image: usaMachineryGif,
+    image: usaMachinery,
     gif: usaMachineryGif,
     description:
       "Website of USA Machinery Company, buy/rent machinery and get different services.",
