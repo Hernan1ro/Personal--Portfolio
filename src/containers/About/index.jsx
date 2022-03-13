@@ -1,12 +1,30 @@
-import React from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "./index.css";
 import profile from "../../assets/profile.png";
 import Title from "../../components/Title";
 import SocialMediaLinks from "../../components/SocialMediaLinks";
 
-const About = () => {
+const About = ({ setVisible }) => {
+  const section = useRef(null);
+  useEffect(() => {
+    let options = {
+      rootMargin: "50px",
+      threshold: 0.6,
+    };
+    const observer = new IntersectionObserver(function (entries) {
+      const { isIntersecting } = entries[0];
+      console.log(isIntersecting);
+      if (isIntersecting) {
+        setVisible(true);
+      } else {
+        setVisible(false);
+      }
+    }, options);
+    observer.observe(section.current);
+  }, [section]);
+
   return (
-    <section id="about" className="about">
+    <section ref={section} id="about" className="about">
       <Title title="About me" />
       <div className="container">
         <div className="about__container">

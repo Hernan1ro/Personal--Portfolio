@@ -4,7 +4,7 @@ import MenuIcon from "../../components/MenuIcon";
 import CloseIcon from "../../components/Icon/CloseIcon";
 import NavPage from "../../components/NavPage";
 
-const Header = () => {
+const Header = ({ visible }) => {
   const [menuActive, setMenuActive] = useState(false);
   const handleClick = () => {
     setMenuActive(!menuActive);
@@ -20,7 +20,7 @@ const Header = () => {
               <strong>{" }"}</strong>
             </span>
           </a>
-          <NavPage menuActive={menuActive} />
+          <NavPage visible={visible} menuActive={menuActive} />
           {menuActive ? (
             <CloseIcon handleClick={handleClick} />
           ) : (

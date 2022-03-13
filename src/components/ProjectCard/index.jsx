@@ -10,7 +10,6 @@ const ProjectCard = ({ projectData }) => {
   useEffect(() => {
     const observer = new IntersectionObserver(function (entries) {
       const { isIntersecting } = entries[0];
-      console.log(isIntersecting);
       if (isIntersecting) {
         setShow(true);
         observer.disconnect();

@@ -1,7 +1,8 @@
 import React from "react";
 import "./index.css";
 
-const NavPage = ({ menuActive }) => {
+const NavPage = ({ menuActive, visible }) => {
+  console.log(visible + "desde navpage");
   return (
     <ul
       aria-label="menu"
@@ -11,7 +12,9 @@ const NavPage = ({ menuActive }) => {
         <a href="#hero">Home</a>
       </li>
       <li>
-        <a href="#about">About</a>
+        <a className={visible ? "link-active" : null} href="#about">
+          About
+        </a>
       </li>
       <li>
         <a href="#skills">Skills</a>

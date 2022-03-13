@@ -12,7 +12,7 @@
 .nav-page li a:hover {
   color: var(--primary-color);
 }
-.nav-page li a[aria-current="true"] {
+.nav-page .link-active {
   text-decoration: underline;
 }
 

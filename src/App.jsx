@@ -9,12 +9,13 @@ import Footer from "./containers/Footer";
 
 function App() {
   const [filter, setFilter] = useState("all");
+  const [visible, setVisible] = useState(false);
 
   return (
     <>
-      <Header />
+      <Header visible={visible} />
       <Hero />
-      <About />
+      <About setVisible={setVisible} />
       <Skills />
       <Projects filter={filter} setFilter={setFilter} />
       <Contact />
