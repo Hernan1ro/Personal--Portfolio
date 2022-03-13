@@ -19,6 +19,7 @@ import simonSays from "../../assets/projects/Simon-says-game.png";
 import theWebNews from "../../assets/projects/the-web-news.png";
 import travelAgency from "../../assets/projects/travel-agency.png";
 import usaMachinery from "../../assets/projects/USA-machinery.png";
+import usaMachineryGif from "../../assets/projects/USA-machinery.gif";
 import vetManager from "../../assets/projects/vet-manager.png";
 import weekBudgetManager from "../../assets/projects/Weekly-budget-manager.png";
 import windowsCalculator from "../../assets/projects/windows-calculator.png";
@@ -38,7 +39,8 @@ export const ProjectsData = [
     id: uuidv4(),
     name: "USA Machinery web",
     category: ["all", "react"],
-    image: usaMachinery,
+    image: usaMachineryGif,
+    gif: usaMachineryGif,
     description:
       "Website of USA Machinery Company, buy/rent machinery and get different services.",
     icon: ["html", "css", "react"],
@@ -50,6 +52,7 @@ export const ProjectsData = [
     name: "Budget Manager App",
     category: ["all", "react"],
     image: budgetManager,
+    gif: usaMachineryGif,
     description:
       "A web app that helps you to track and analyze your personal budget.",
     icon: ["html", "css", "react"],
@@ -61,6 +64,7 @@ export const ProjectsData = [
     name: "Travel Agency Web",
     category: ["all", "node"],
     image: travelAgency,
+    gif: usaMachineryGif,
     description: "Book your trip to the most beautiful places in the world.",
     icon: ["html", "css", "node", "mysql", "express"],
     github: "https://github.com/Hernan1ro/TravelAgency",
@@ -71,6 +75,7 @@ export const ProjectsData = [
     name: "FinAntApp",
     category: ["all", "react"],
     image: finanApp,
+    gif: usaMachineryGif,
     description: "Track your ant expenses and improve your personal finances.",
     icon: ["react", "css", "redux", "firebase", "chartjs"],
     github: "https://github.com/Hernan1ro/Budget-manager-app",
@@ -81,6 +86,7 @@ export const ProjectsData = [
     name: "Batatabit",
     category: ["all"],
     image: batatabit,
+    gif: usaMachineryGif,
     description:
       "A HTML & CSS template for a company, built by the mobile first principle. ",
     icon: ["html", "css"],
@@ -92,6 +98,7 @@ export const ProjectsData = [
     name: "Brand",
     category: ["all"],
     image: brand,
+    gif: usaMachineryGif,
     description:
       "Website built to practice HTML & CSS with a button linked to paypal.",
     icon: ["html", "css"],
@@ -103,6 +110,7 @@ export const ProjectsData = [
     name: "Petgram",
     category: ["all", "react"],
     image: petgram,
+    gif: usaMachineryGif,
     description:
       "Social media such as Instagram but in this case it was created for pets.",
     icon: ["html", "sass", "javascript", "react", "styledcomponents"],
@@ -114,6 +122,7 @@ export const ProjectsData = [
     name: "Cat insurance calculator",
     category: ["all", "javascript"],
     image: carBudgetCalculator,
+    gif: usaMachineryGif,
     description:
       "Quote your Car insurance depending on its brand, year, and origin.",
     icon: ["html", "css", "javascript"],
@@ -125,6 +134,7 @@ export const ProjectsData = [
     name: "Cryptocurrency Query",
     category: ["all", "javascript"],
     image: criptoQuery,
+    gif: usaMachineryGif,
     description:
       "Query the most popular cryptocurrencies in the word with this app.",
     icon: ["html", "css", "javascript"],
@@ -136,6 +146,7 @@ export const ProjectsData = [
     name: "Loan Calculator",
     category: ["all", "javascript"],
     image: loanCalculator,
+    gif: usaMachineryGif,
     description: "A web calculator that helps you to calculate your loans.",
     icon: ["html", "css", "react"],
     github: "https://github.com/Hernan1ro/loan-app",
@@ -146,6 +157,7 @@ export const ProjectsData = [
     name: "Gatsby Hotel",
     category: ["all", "react"],
     image: gatsbyHotel,
+    gif: usaMachineryGif,
     description:
       "A demo project that has Gatsby and React to create a website for a hotel.",
     icon: ["html", "css", "react"],
@@ -157,6 +169,7 @@ export const ProjectsData = [
     name: "Car seeker",
     category: ["all", "javascript"],
     image: carSeeker,
+    gif: usaMachineryGif,
     description:
       "Sort cars by brand, year, price and other kind of caracteristics.",
     icon: ["html", "css", "javascript"],
@@ -168,6 +181,7 @@ export const ProjectsData = [
     name: "CRUD indexDB",
     category: ["all", "javascript"],
     image: crmIndexDB,
+    gif: usaMachineryGif,
     description:
       "A basic CRM made with indexDB to build a CRUD App, made 100% with javascript.",
     icon: ["html", "css", "javascript"],
@@ -179,6 +193,7 @@ export const ProjectsData = [
     name: "Materialize website",
     category: ["all"],
     image: materializeWeb,
+    gif: usaMachineryGif,
     description:
       "In this project I implemented Materialize to create a simple layout for practice.",
     icon: ["html", "css"],
@@ -190,6 +205,7 @@ export const ProjectsData = [
     name: "Email simulator",
     category: ["all", "javascript"],
     image: emailSimulator,
+    gif: usaMachineryGif,
     description:
       "Its a basic form in which i applied vainilla Js to create a email simulator.",
     icon: ["html", "css", "javascript"],
@@ -201,6 +217,7 @@ export const ProjectsData = [
     name: "Platzi Video",
     category: ["all", "react"],
     image: platziVideo,
+    gif: usaMachineryGif,
     description:
       "Website that has been made with React. js, Redux, and React-router.",
     icon: ["html", "css", "react", "redux"],
@@ -212,6 +229,7 @@ export const ProjectsData = [
     name: "Youtube clon",
     category: ["all"],
     image: youtubeClon,
+    gif: usaMachineryGif,
     description: "Youtube dark mode clone built with vainilla HTML & CSS.",
     icon: ["html", "css"],
     github: "https://github.com/Hernan1ro/Youtube-layout",
@@ -222,6 +240,7 @@ export const ProjectsData = [
     name: "Image seeker",
     category: ["all", "javascript"],
     image: imageSeeker,
+    gif: usaMachineryGif,
     description:
       "Show images acording to user's search, take a look at it and try.",
     icon: ["html", "css", "javascript"],
@@ -233,6 +252,7 @@ export const ProjectsData = [
     name: "Simon says game",
     category: ["all", "javascript"],
     image: simonSays,
+    gif: usaMachineryGif,
     description: "Have fun with this simon dice game and challenge your mind.",
     icon: ["html", "css", "javascript"],
     github: "https://github.com/Hernan1ro/simon-dice",
@@ -243,6 +263,7 @@ export const ProjectsData = [
     name: "Music seeker",
     category: ["all", "javascript"],
     image: musicSeeker,
+    gif: usaMachineryGif,
     description:
       "A small project that helps you to find songs, listen to them and enjoy!",
     icon: ["html", "css", "javascript"],
@@ -254,6 +275,7 @@ export const ProjectsData = [
     name: "The Web News",
     category: ["all", "javascript"],
     image: theWebNews,
+    gif: usaMachineryGif,
     description:
       "A site completely responsive which displays the news and comments from a Fake API",
     icon: ["html", "css", "javascript"],
@@ -265,6 +287,7 @@ export const ProjectsData = [
     name: "Vet meeting manager",
     category: ["all", "javascript"],
     image: vetManager,
+    gif: usaMachineryGif,
     description:
       "An app that allows you to manage vet appointments, made with Vainilla Javascript.",
     icon: ["html", "css", "javascript"],
@@ -276,6 +299,7 @@ export const ProjectsData = [
     name: "Week budget manager",
     category: ["all", "javascript"],
     image: weekBudgetManager,
+    gif: usaMachineryGif,
     description:
       "App to track your personal week budget, save your data in localstorage.",
     icon: ["html", "css", "javascript"],
@@ -287,6 +311,7 @@ export const ProjectsData = [
     name: "Windows calculator",
     category: ["all", "javascript"],
     image: windowsCalculator,
+    gif: usaMachineryGif,
     description:
       "This a project in which i apply all what i've learned so far about Js.",
     icon: ["html", "css", "javascript"],
@@ -298,6 +323,7 @@ export const ProjectsData = [
     name: "Platzi Conf",
     category: ["all"],
     image: platziConf,
+    gif: usaMachineryGif,
     description: "This project is made with the Booststrap 4 Framework.",
     icon: ["html", "css"],
     github: "https://github.com/Hernan1ro/booststrap-proyect",
@@ -308,6 +334,7 @@ export const ProjectsData = [
     name: "Weather API Index",
     category: ["all", "javascript"],
     image: weather,
+    gif: usaMachineryGif,
     description:
       "Show to the user information in real time about the weather with a wheater API.",
     icon: ["html", "css", "javascript"],
@@ -319,6 +346,7 @@ export const ProjectsData = [
     name: "Store API REST",
     category: ["all", "node"],
     image: storeApi,
+    gif: usaMachineryGif,
     description:
       "API REST with Express.js that can works as a database for a demo project.",
     icon: ["javascript", "node", "express"],
@@ -330,6 +358,7 @@ export const ProjectsData = [
     name: "React shop",
     category: ["all", "react"],
     image: yardsale,
+    gif: usaMachineryGif,
     description:
       "This a E-comerce demo built in React.js using an external API to get the data.",
     icon: ["javascript", "html", "sass", "react"],
@@ -341,6 +370,7 @@ export const ProjectsData = [
     name: "Conf Merch",
     category: ["all", "react"],
     image: confmerch,
+    gif: usaMachineryGif,
     description:
       "Website for merch with a demo button linked to paypal to simulate the buying process.",
     icon: ["html", "css", "react"],
@@ -352,6 +382,7 @@ export const ProjectsData = [
     name: "Task Manager",
     category: ["all", "javascript"],
     image: taskManager,
+    gif: usaMachineryGif,
     description:
       "Organize your to-do list with this simple app made with vainilla JS.",
     icon: ["html", "css", "javascript"],
@@ -363,6 +394,7 @@ export const ProjectsData = [
     name: "BlackJack game",
     category: ["all", "javascript"],
     image: blackjack,
+    gif: usaMachineryGif,
     description:
       "The BlackJack game built with vainilla Javascript to test your luck with the cards.",
     icon: ["html", "css", "javascript"],
