@@ -57,14 +57,26 @@ const Contact = () => {
             <h3>Let's work together!</h3>
             <span>Send me a message so we can be in touch</span>
             <form ref={form} onSubmit={sendEmail} action="">
-              <input type="text" name="name" placeholder="Your name" />
               <input
+                tabIndex="1"
+                type="text"
+                name="name"
+                placeholder="Your name"
+              />
+              <input
+                tabIndex="2"
                 type="email"
                 name="email"
                 placeholder="Your email address"
               />
-              <input type="text" name="subject" placeholder="Subject" />
+              <input
+                tabIndex="3"
+                type="text"
+                name="subject"
+                placeholder="Subject"
+              />
               <textarea
+                tabIndex="4"
                 type="text"
                 name="message"
                 placeholder="Your message"

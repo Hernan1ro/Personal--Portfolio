@@ -9,7 +9,6 @@ import ProjectLink from "../../components/ProjectLink";
 import "./index.css";
 
 const Footer = ({ setFilter }) => {
-  console.log(ProjectsData);
   const year = new Date().getFullYear();
   return (
     <footer id="footer">

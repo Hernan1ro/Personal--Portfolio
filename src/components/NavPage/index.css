@@ -12,6 +12,9 @@
 .nav-page li a:hover {
   color: var(--primary-color);
 }
+.nav-page li a[aria-current="true"] {
+  text-decoration: underline;
+}
 
 @media (max-width: 768px) {
   .nav-page {

@@ -3,7 +3,10 @@ import "./index.css";
 
 const NavPage = ({ menuActive }) => {
   return (
-    <ul className={`nav-page  ${menuActive ? "nav-page-active" : null}`}>
+    <ul
+      aria-label="menu"
+      className={`nav-page  ${menuActive ? "nav-page-active" : null}`}
+    >
       <li>
         <a href="#hero">Home</a>
       </li>

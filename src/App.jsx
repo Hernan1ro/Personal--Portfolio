@@ -18,7 +18,7 @@ function App() {
       <Skills />
       <Projects filter={filter} setFilter={setFilter} />
       <Contact />
-      <Footer filter={filter} setFilter={setFilter} />
+      <Footer setFilter={setFilter} />
     </>
   );
 }
