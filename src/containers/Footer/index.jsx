@@ -3,10 +3,13 @@ import PinIcon from "../../components/Icon/PinIcon.jsx";
 import EmailIcon from "../../components/Icon/Email.jsx";
 import NavPage from "../../components/NavPage";
 import SocialMediaLinks from "../../components/SocialMediaLinks";
+import { ProjectsData } from "../Projects/ProjectsData.js";
+import ProjectLink from "../../components/ProjectLink";
 
 import "./index.css";
 
 const Footer = () => {
+  console.log(ProjectsData);
   const year = new Date().getFullYear();
   return (
     <footer id="footer">
@@ -25,28 +28,39 @@ const Footer = () => {
         <div className="about-me">
           <h6>About me</h6>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-            possimus ab ad reiciendis tempore? Repellat, voluptate consequuntur
-            ex consequatur ipsam similique necessitatibus perspiciatis magnam
-            aspernatur!
+            I'm a Frontend Developer Jr with a focus on the development of
+            solutions through high impact and scalability software, oriented to
+            industry, values and technology as a means to be part of the
+            transformation and growth of our economy.
           </p>
         </div>
         <div className="portfolio">
           <h6>Portfolio</h6>
           <div className="portfolio__container">
-            <span>ReactJS</span>
-            <span>Javascript</span>
-            <span>NodeJS</span>
-            <span>Full stack</span>
+            <a href="#projects">
+              <span>All</span>
+            </a>
+            <a href="#projects">
+              <span>JavaScript</span>
+            </a>
+            <a href="#projects">
+              <span>React</span>
+            </a>
+            <a href="#projects">
+              <span>Node</span>
+            </a>
           </div>
         </div>
         <div className="latest-projects">
           <h6>Latest projects</h6>
           <div className="latest-projects__container">
-            <span>Budget manager</span>
-            <span>Budget manager</span>
-            <span>Budget manager</span>
-            <span>Budget manager</span>
+            {ProjectsData.map((item, index) => {
+              const { name, demo, id } = item;
+              if (index >= 4) {
+                return;
+              }
+              return <ProjectLink key={id} link={demo} name={name} />;
+            })}
           </div>
         </div>
       </div>

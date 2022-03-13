@@ -28,7 +28,7 @@
 .resume-info {
   gap: 2rem;
   margin-top: 2rem;
-  padding: 4rem 2rem;
+  padding: 4rem 1rem;
   display: grid;
   place-items: center;
   grid-template-columns: repeat(3, 1fr);
@@ -53,10 +53,10 @@
 .about-me h6,
 .portfolio h6,
 .latest-projects h6 {
-  font-size: var(--lg);
+  font-size: var(--md);
   text-transform: uppercase;
   font-weight: bold;
-  color: var(--secondary-color);
+  color: var(--soft-purple);
 }
 .about-me p {
   font-size: var(--md);
@@ -77,6 +77,10 @@
 .latest-projects__container span,
 .portfolio__container span {
   font-size: var(--md);
+}
+.portfolio__container span:hover,
+.latest-projects__container span:hover {
+  color: var(--primary-color);
 }
 .social-media {
   display: flex;
