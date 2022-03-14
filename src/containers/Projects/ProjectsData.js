@@ -1,37 +1,67 @@
 import { v4 as uuidv4 } from "uuid";
 import finanApp from "../../assets/projects/Finantapp.png";
+import finanAppGif from "../../assets/projects/Finantapp.gif";
 import batatabit from "../../assets/projects/batatabit.png";
+import batatabitGif from "../../assets/projects/batatabit.gif";
 import brand from "../../assets/projects/Brand.png";
+import brandGif from "../../assets/projects/Brand.gif";
 import petgram from "../../assets/projects/petgram.png";
+import petgramGif from "../../assets/projects/petgram.gif";
 import budgetManager from "../../assets/projects/budget-manager.png";
+import budgetManagerGif from "../../assets/projects/budget-manager.gif";
 import carBudgetCalculator from "../../assets/projects/car-budget-calculator.png";
+import carBudgetCalculatorGif from "../../assets/projects/car-budget-calculator.gif";
 import carSeeker from "../../assets/projects/Car-seeker.png";
+import carSeekerGif from "../../assets/projects/Car-seeker.gif";
 import criptoQuery from "../../assets/projects/cripto-query.png";
+import criptoQueryGif from "../../assets/projects/cripto-query.gif";
 import crmIndexDB from "../../assets/projects/CRM-indexdb.png";
+import crmIndexDBGif from "../../assets/projects/CRM-indexdb.gif";
 import emailSimulator from "../../assets/projects/Email-simulator.png";
+import emailSimulatorGif from "../../assets/projects/Email-simulator.gif";
 import gatsbyHotel from "../../assets/projects/gatsby-hotel.png";
+import gatsbyHotelGif from "../../assets/projects/gatsby-hotel.gif";
 import imageSeeker from "../../assets/projects/Imagen-seeker.png";
+import imageSeekerGif from "../../assets/projects/Imagen-seeker.gif";
 import materializeWeb from "../../assets/projects/Materialize-website.png";
+import materializeWebGif from "../../assets/projects/Materialize-website.gif";
 import musicSeeker from "../../assets/projects/music-seeker.png";
+import musicSeekerGif from "../../assets/projects/music-seeker.gif";
 import platziVideo from "../../assets/projects/Platzi-video.png";
+import platziVideoGif from "../../assets/projects/Platzi-video.gif";
 // import shoppingCart from "../../assets/projects/shopping-cart.png";
 import simonSays from "../../assets/projects/Simon-says-game.png";
+import simonSaysGif from "../../assets/projects/Simon-says-game.gif";
 import theWebNews from "../../assets/projects/the-web-news.png";
+import theWebNewsGif from "../../assets/projects/the-web-news.gif";
 import travelAgency from "../../assets/projects/travel-agency.png";
+import travelAgencyGif from "../../assets/projects/travel-agency.gif";
 import usaMachinery from "../../assets/projects/USA-machinery.png";
 import usaMachineryGif from "../../assets/projects/USA-machinery.gif";
 import vetManager from "../../assets/projects/vet-manager.png";
+import vetManagerGif from "../../assets/projects/vet-manager.gif";
 import weekBudgetManager from "../../assets/projects/Weekly-budget-manager.png";
+import weekBudgetManagerGif from "../../assets/projects/Weekly-budget-manager.gif";
 import windowsCalculator from "../../assets/projects/windows-calculator.png";
+import windowsCalculatorGif from "../../assets/projects/windows-calculator.gif";
 import youtubeClon from "../../assets/projects/Youtube-clon.png";
+import youtubeClonGif from "../../assets/projects/Youtube-clon.gif";
 import loanCalculator from "../../assets/projects/loan-calculator.png";
+import loanCalculatorGif from "../../assets/projects/loan-calculator.gif";
 import platziConf from "../../assets/projects/Platzi-conf.png";
+import platziConfGif from "../../assets/projects/Platzi-conf.gif";
 import weather from "../../assets/projects/weather-page.png";
+import weatherGif from "../../assets/projects/weather-page.gif";
 import storeApi from "../../assets/projects/store-api.png";
+import storeApiGif from "../../assets/projects/store-api.gif";
 import yardsale from "../../assets/projects/yard-sale.png";
+import yardsaleGif from "../../assets/projects/yard-sale.gif";
 import confmerch from "../../assets/projects/conf-merch.png";
+import confmerchGif from "../../assets/projects/conf-merch.gif";
 import taskManager from "../../assets/projects/task-manager.png";
+import taskManagerGif from "../../assets/projects/task-manager.gif";
 import blackjack from "../../assets/projects/blackjack.png";
+import blackjackGif from "../../assets/projects/blackjack.gif";
 
 // Dynamically setting project cards
 export const ProjectsData = [
@@ -52,7 +82,7 @@ export const ProjectsData = [
     name: "Budget Manager App",
     category: ["all", "react"],
     image: budgetManager,
-    gif: usaMachineryGif,
+    gif: budgetManagerGif,
     description:
       "A web app that helps you to track and analyze your personal budget.",
     icon: ["html", "css", "react"],
@@ -64,7 +94,7 @@ export const ProjectsData = [
     name: "Travel Agency Web",
     category: ["all", "node"],
     image: travelAgency,
-    gif: usaMachineryGif,
+    gif: travelAgencyGif,
     description: "Book your trip to the most beautiful places in the world.",
     icon: ["html", "css", "node", "mysql", "express"],
     github: "https://github.com/Hernan1ro/TravelAgency",
@@ -75,7 +105,7 @@ export const ProjectsData = [
     name: "FinAntApp",
     category: ["all", "react"],
     image: finanApp,
-    gif: usaMachineryGif,
+    gif: finanAppGif,
     description: "Track your ant expenses and improve your personal finances.",
     icon: ["react", "css", "redux", "firebase", "chartjs"],
     github: "https://github.com/Hernan1ro/Budget-manager-app",
@@ -86,7 +116,7 @@ export const ProjectsData = [
     name: "Batatabit",
     category: ["all"],
     image: batatabit,
-    gif: usaMachineryGif,
+    gif: batatabitGif,
     description:
       "A HTML & CSS template for a company, built by the mobile first principle. ",
     icon: ["html", "css"],
@@ -98,7 +128,7 @@ export const ProjectsData = [
     name: "Brand",
     category: ["all"],
     image: brand,
-    gif: usaMachineryGif,
+    gif: brandGif,
     description:
       "Website built to practice HTML & CSS with a button linked to paypal.",
     icon: ["html", "css"],
@@ -110,7 +140,7 @@ export const ProjectsData = [
     name: "Petgram",
     category: ["all", "react"],
     image: petgram,
-    gif: usaMachineryGif,
+    gif: petgramGif,
     description:
       "Social media such as Instagram but in this case it was created for pets.",
     icon: ["html", "sass", "javascript", "react", "styledcomponents"],
@@ -122,7 +152,7 @@ export const ProjectsData = [
     name: "Cat insurance calculator",
     category: ["all", "javascript"],
     image: carBudgetCalculator,
-    gif: usaMachineryGif,
+    gif: carBudgetCalculatorGif,
     description:
       "Quote your Car insurance depending on its brand, year, and origin.",
     icon: ["html", "css", "javascript"],
@@ -134,7 +164,7 @@ export const ProjectsData = [
     name: "Cryptocurrency Query",
     category: ["all", "javascript"],
     image: criptoQuery,
-    gif: usaMachineryGif,
+    gif: criptoQueryGif,
     description:
       "Query the most popular cryptocurrencies in the word with this app.",
     icon: ["html", "css", "javascript"],
@@ -146,7 +176,7 @@ export const ProjectsData = [
     name: "Loan Calculator",
     category: ["all", "javascript"],
     image: loanCalculator,
-    gif: usaMachineryGif,
+    gif: loanCalculatorGif,
     description: "A web calculator that helps you to calculate your loans.",
     icon: ["html", "css", "react"],
     github: "https://github.com/Hernan1ro/loan-app",
@@ -157,7 +187,7 @@ export const ProjectsData = [
     name: "Gatsby Hotel",
     category: ["all", "react"],
     image: gatsbyHotel,
-    gif: usaMachineryGif,
+    gif: gatsbyHotelGif,
     description:
       "A demo project that has Gatsby and React to create a website for a hotel.",
     icon: ["html", "css", "react"],
@@ -169,7 +199,7 @@ export const ProjectsData = [
     name: "Car seeker",
     category: ["all", "javascript"],
     image: carSeeker,
-    gif: usaMachineryGif,
+    gif: carSeekerGif,
     description:
       "Sort cars by brand, year, price and other kind of caracteristics.",
     icon: ["html", "css", "javascript"],
@@ -181,7 +211,7 @@ export const ProjectsData = [
     name: "CRUD indexDB",
     category: ["all", "javascript"],
     image: crmIndexDB,
-    gif: usaMachineryGif,
+    gif: crmIndexDBGif,
     description:
       "A basic CRM made with indexDB to build a CRUD App, made 100% with javascript.",
     icon: ["html", "css", "javascript"],
@@ -193,7 +223,7 @@ export const ProjectsData = [
     name: "Materialize website",
     category: ["all"],
     image: materializeWeb,
-    gif: usaMachineryGif,
+    gif: materializeWebGif,
     description:
       "In this project I implemented Materialize to create a simple layout for practice.",
     icon: ["html", "css"],
@@ -205,7 +235,7 @@ export const ProjectsData = [
     name: "Email simulator",
     category: ["all", "javascript"],
     image: emailSimulator,
-    gif: usaMachineryGif,
+    gif: emailSimulatorGif,
     description:
       "Its a basic form in which i applied vainilla Js to create a email simulator.",
     icon: ["html", "css", "javascript"],
@@ -217,7 +247,7 @@ export const ProjectsData = [
     name: "Platzi Video",
     category: ["all", "react"],
     image: platziVideo,
-    gif: usaMachineryGif,
+    gif: platziVideoGif,
     description:
       "Website that has been made with React. js, Redux, and React-router.",
     icon: ["html", "css", "react", "redux"],
@@ -229,7 +259,7 @@ export const ProjectsData = [
     name: "Youtube clon",
     category: ["all"],
     image: youtubeClon,
-    gif: usaMachineryGif,
+    gif: youtubeClonGif,
     description: "Youtube dark mode clone built with vainilla HTML & CSS.",
     icon: ["html", "css"],
     github: "https://github.com/Hernan1ro/Youtube-layout",
@@ -240,7 +270,7 @@ export const ProjectsData = [
     name: "Image seeker",
     category: ["all", "javascript"],
     image: imageSeeker,
-    gif: usaMachineryGif,
+    gif: imageSeekerGif,
     description:
       "Show images acording to user's search, take a look at it and try.",
     icon: ["html", "css", "javascript"],
@@ -252,7 +282,7 @@ export const ProjectsData = [
     name: "Simon says game",
     category: ["all", "javascript"],
     image: simonSays,
-    gif: usaMachineryGif,
+    gif: simonSaysGif,
     description: "Have fun with this simon dice game and challenge your mind.",
     icon: ["html", "css", "javascript"],
     github: "https://github.com/Hernan1ro/simon-dice",
@@ -263,7 +293,7 @@ export const ProjectsData = [
     name: "Music seeker",
     category: ["all", "javascript"],
     image: musicSeeker,
-    gif: usaMachineryGif,
+    gif: musicSeekerGif,
     description:
       "A small project that helps you to find songs, listen to them and enjoy!",
     icon: ["html", "css", "javascript"],
@@ -275,7 +305,7 @@ export const ProjectsData = [
     name: "The Web News",
     category: ["all", "javascript"],
     image: theWebNews,
-    gif: usaMachineryGif,
+    gif: theWebNewsGif,
     description:
       "A site completely responsive which displays the news and comments from a Fake API",
     icon: ["html", "css", "javascript"],
@@ -287,7 +317,7 @@ export const ProjectsData = [
     name: "Vet meeting manager",
     category: ["all", "javascript"],
     image: vetManager,
-    gif: usaMachineryGif,
+    gif: vetManagerGif,
     description:
       "An app that allows you to manage vet appointments, made with Vainilla Javascript.",
     icon: ["html", "css", "javascript"],
@@ -299,7 +329,7 @@ export const ProjectsData = [
     name: "Week budget manager",
     category: ["all", "javascript"],
     image: weekBudgetManager,
-    gif: usaMachineryGif,
+    gif: weekBudgetManagerGif,
     description:
       "App to track your personal week budget, save your data in localstorage.",
     icon: ["html", "css", "javascript"],
@@ -311,7 +341,7 @@ export const ProjectsData = [
     name: "Windows calculator",
     category: ["all", "javascript"],
     image: windowsCalculator,
-    gif: usaMachineryGif,
+    gif: windowsCalculatorGif,
     description:
       "This a project in which i apply all what i've learned so far about Js.",
     icon: ["html", "css", "javascript"],
@@ -323,7 +353,7 @@ export const ProjectsData = [
     name: "Platzi Conf",
     category: ["all"],
     image: platziConf,
-    gif: usaMachineryGif,
+    gif: platziConfGif,
     description: "This project is made with the Booststrap 4 Framework.",
     icon: ["html", "css"],
     github: "https://github.com/Hernan1ro/booststrap-proyect",
@@ -334,7 +364,7 @@ export const ProjectsData = [
     name: "Weather API Index",
     category: ["all", "javascript"],
     image: weather,
-    gif: usaMachineryGif,
+    gif: weatherGif,
     description:
       "Show to the user information in real time about the weather with a wheater API.",
     icon: ["html", "css", "javascript"],
@@ -346,7 +376,7 @@ export const ProjectsData = [
     name: "Store API REST",
     category: ["all", "node"],
     image: storeApi,
-    gif: usaMachineryGif,
+    gif: storeApiGif,
     description:
       "API REST with Express.js that can works as a database for a demo project.",
     icon: ["javascript", "node", "express"],
@@ -358,7 +388,7 @@ export const ProjectsData = [
     name: "React shop",
     category: ["all", "react"],
     image: yardsale,
-    gif: usaMachineryGif,
+    gif: yardsaleGif,
     description:
       "This a E-comerce demo built in React.js using an external API to get the data.",
     icon: ["javascript", "html", "sass", "react"],
@@ -370,7 +400,7 @@ export const ProjectsData = [
     name: "Conf Merch",
     category: ["all", "react"],
     image: confmerch,
-    gif: usaMachineryGif,
+    gif: confmerchGif,
     description:
       "Website for merch with a demo button linked to paypal to simulate the buying process.",
     icon: ["html", "css", "react"],
@@ -382,7 +412,7 @@ export const ProjectsData = [
     name: "Task Manager",
     category: ["all", "javascript"],
     image: taskManager,
-    gif: usaMachineryGif,
+    gif: taskManagerGif,
     description:
       "Organize your to-do list with this simple app made with vainilla JS.",
     icon: ["html", "css", "javascript"],
@@ -394,7 +424,7 @@ export const ProjectsData = [
     name: "BlackJack game",
     category: ["all", "javascript"],
     image: blackjack,
-    gif: usaMachineryGif,
+    gif: blackjackGif,
     description:
       "The BlackJack game built with vainilla Javascript to test your luck with the cards.",
     icon: ["html", "css", "javascript"],
