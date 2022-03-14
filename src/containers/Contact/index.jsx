@@ -1,14 +1,31 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import emailjs from "@emailjs/browser";
 import "./index.css";
 import Title from "../../components/Title";
 import Message from "../../components/Message";
 import contactImg from "../../assets/contact-pink.jpg";
 
-const Contact = () => {
+const Contact = ({ setContactVisible }) => {
   const form = useRef();
   const [error, setError] = useState(false);
   const [success, setSuccess] = useState(false);
+
+  const section = useRef(null);
+  useEffect(() => {
+    let options = {
+      rootMargin: "50px",
+      threshold: 0.6,
+    };
+    const observer = new IntersectionObserver(function (entries) {
+      const { isIntersecting } = entries[0];
+      if (isIntersecting) {
+        setContactVisible(true);
+      } else {
+        setContactVisible(false);
+      }
+    }, options);
+    observer.observe(section.current);
+  }, [section]);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -44,7 +61,7 @@ const Contact = () => {
     }
   };
   return (
-    <section id="contact" className="contact-section">
+    <section ref={section} id="contact" className="contact-section">
       <Title title="Contact" />
       <div className="container">
         <div className="contact-container">

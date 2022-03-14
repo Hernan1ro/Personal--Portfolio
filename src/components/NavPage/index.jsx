@@ -1,29 +1,47 @@
 import React from "react";
 import "./index.css";
 
-const NavPage = ({ menuActive, visible }) => {
-  console.log(visible + "desde navpage");
+const NavPage = ({
+  menuActive,
+  heroVisible,
+  aboutVisible,
+  skillVisible,
+  projectsVisible,
+  contactVisible,
+  footerVisible,
+}) => {
   return (
     <ul
       aria-label="menu"
       className={`nav-page  ${menuActive ? "nav-page-active" : null}`}
     >
       <li>
-        <a href="#hero">Home</a>
+        <a className={heroVisible ? "link-active" : null} href="#hero">
+          Home
+        </a>
       </li>
       <li>
-        <a className={visible ? "link-active" : null} href="#about">
+        <a className={aboutVisible ? "link-active" : null} href="#about">
           About
         </a>
       </li>
       <li>
-        <a href="#skills">Skills</a>
+        <a className={skillVisible ? "link-active" : null} href="#skills">
+          Skills
+        </a>
       </li>
       <li>
-        <a href="#projects">Projects</a>
+        <a className={projectsVisible ? "link-active" : null} href="#projects">
+          Projects
+        </a>
       </li>
       <li>
-        <a href="#contact">Contact</a>
+        <a
+          className={contactVisible || footerVisible ? "link-active" : null}
+          href="#contact"
+        >
+          Contact
+        </a>
       </li>
     </ul>
   );

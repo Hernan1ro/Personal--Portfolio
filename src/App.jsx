@@ -9,17 +9,37 @@ import Footer from "./containers/Footer";
 
 function App() {
   const [filter, setFilter] = useState("all");
-  const [visible, setVisible] = useState(false);
+  const [heroVisible, setHeroVisible] = useState(false);
+  const [aboutVisible, setAboutVisible] = useState(false);
+  const [skillVisible, setSkillVisible] = useState(false);
+  const [projectsVisible, setProjectsVisible] = useState(false);
+  const [contactVisible, setContactVisible] = useState(false);
+  const [footerVisible, setFooterVisible] = useState(false);
 
   return (
     <>
-      <Header visible={visible} />
-      <Hero />
-      <About setVisible={setVisible} />
-      <Skills />
-      <Projects filter={filter} setFilter={setFilter} />
-      <Contact />
-      <Footer setFilter={setFilter} />
+      <Header
+        heroVisible={heroVisible}
+        aboutVisible={aboutVisible}
+        skillVisible={skillVisible}
+        projectsVisible={projectsVisible}
+        contactVisible={contactVisible}
+        footerVisible={footerVisible}
+      />
+      <Hero setHeroVisible={setHeroVisible} />
+      <About setAboutVisible={setAboutVisible} />
+      <Skills setSkillVisible={setSkillVisible} />
+      <Projects
+        setProjectsVisible={setProjectsVisible}
+        filter={filter}
+        setFilter={setFilter}
+      />
+      <Contact setContactVisible={setContactVisible} />
+      <Footer
+        setFilter={setFilter}
+        setFooterVisible={setFooterVisible}
+        footerVisible={footerVisible}
+      />
     </>
   );
 }

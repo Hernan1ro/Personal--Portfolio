@@ -1,17 +1,35 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
+
 import "./index.css";
 import { Icon } from "../../components/Icon/Icon";
 import Title from "../../components/Title";
 import TechnologyInfo from "../../components/TechnologyInfo";
 import { skillData } from "./skillData";
 
-const Skills = () => {
+const Skills = ({ setSkillVisible }) => {
   const [frontendActive, setFrontendActive] = useState(true);
   const [backendActive, setBackendActive] = useState(false);
   const [designActive, setDesignActive] = useState(false);
   const [managementActive, setManagementActive] = useState(false);
   const [filter, setFilter] = useState("frontend");
   const [icon, setIcon] = useState("html");
+
+  const section = useRef(null);
+  useEffect(() => {
+    let options = {
+      rootMargin: "50px",
+      threshold: 0.6,
+    };
+    const observer = new IntersectionObserver(function (entries) {
+      const { isIntersecting } = entries[0];
+      if (isIntersecting) {
+        setSkillVisible(true);
+      } else {
+        setSkillVisible(false);
+      }
+    }, options);
+    observer.observe(section.current);
+  }, [section]);
 
   const desactivateCategories = () => {
     setFrontendActive(false);
@@ -50,7 +68,7 @@ const Skills = () => {
     }
   };
   return (
-    <section id="skills" className="skills">
+    <section ref={section} id="skills" className="skills">
       <Title title="My Skills" />
       <div className="skills__container container">
         <div className="skills__categories">

@@ -1,14 +1,31 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Title from "../../components/Title";
 import ProjectCard from "../../components/ProjectCard";
 import { ProjectsData } from "./ProjectsData";
 import "./index.css";
 
-const Projects = ({ filter, setFilter }) => {
+const Projects = ({ filter, setFilter, setProjectsVisible }) => {
   const [allActive, setAllActive] = useState(true);
   const [reactActive, setReactActive] = useState(false);
   const [javascriptActive, setJavascriptActive] = useState(false);
   const [nodeActive, setNodeActive] = useState(false);
+
+  const section = useRef(null);
+  useEffect(() => {
+    let options = {
+      rootMargin: "50px",
+      threshold: 0.1,
+    };
+    const observer = new IntersectionObserver(function (entries) {
+      const { isIntersecting } = entries[0];
+      if (isIntersecting) {
+        setProjectsVisible(true);
+      } else {
+        setProjectsVisible(false);
+      }
+    }, options);
+    observer.observe(section.current);
+  }, [section]);
 
   const desactivateCategories = () => {
     setAllActive(false);
@@ -43,7 +60,7 @@ const Projects = ({ filter, setFilter }) => {
   };
 
   return (
-    <section id="projects" className="projects-section">
+    <section ref={section} id="projects" className="projects-section">
       <Title title={"Projects"} />
       <div className="container">
         <div className="projects-categories">

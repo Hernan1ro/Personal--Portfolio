@@ -4,7 +4,14 @@ import MenuIcon from "../../components/MenuIcon";
 import CloseIcon from "../../components/Icon/CloseIcon";
 import NavPage from "../../components/NavPage";
 
-const Header = ({ visible }) => {
+const Header = ({
+  heroVisible,
+  aboutVisible,
+  skillVisible,
+  projectsVisible,
+  contactVisible,
+  footerVisible,
+}) => {
   const [menuActive, setMenuActive] = useState(false);
   const handleClick = () => {
     setMenuActive(!menuActive);
@@ -20,7 +27,15 @@ const Header = ({ visible }) => {
               <strong>{" }"}</strong>
             </span>
           </a>
-          <NavPage visible={visible} menuActive={menuActive} />
+          <NavPage
+            heroVisible={heroVisible}
+            aboutVisible={aboutVisible}
+            skillVisible={skillVisible}
+            projectsVisible={projectsVisible}
+            contactVisible={contactVisible}
+            menuActive={menuActive}
+            footerVisible={footerVisible}
+          />
           {menuActive ? (
             <CloseIcon handleClick={handleClick} />
           ) : (

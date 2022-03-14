@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import PinIcon from "../../components/Icon/PinIcon.jsx";
 import EmailIcon from "../../components/Icon/Email.jsx";
 import NavPage from "../../components/NavPage";
@@ -8,10 +8,27 @@ import ProjectLink from "../../components/ProjectLink";
 
 import "./index.css";
 
-const Footer = ({ setFilter }) => {
+const Footer = ({ setFilter, setFooterVisible, footerVisible }) => {
+  const section = useRef(null);
+  useEffect(() => {
+    let options = {
+      rootMargin: "50px",
+      threshold: 0.1,
+    };
+    const observer = new IntersectionObserver(function (entries) {
+      const { isIntersecting } = entries[0];
+      if (isIntersecting) {
+        setFooterVisible(true);
+      } else {
+        setFooterVisible(false);
+      }
+    }, options);
+    observer.observe(section.current);
+  }, [section]);
+
   const year = new Date().getFullYear();
   return (
-    <footer id="footer">
+    <footer ref={section} id="footer">
       <div className="contact-info container">
         <div className="location">
           <PinIcon />
@@ -84,7 +101,7 @@ const Footer = ({ setFilter }) => {
         </div>
       </div>
       <div className="social-media container">
-        <NavPage />
+        <NavPage footerVisible={footerVisible} />
         <SocialMediaLinks />
       </div>
       <div className="copyright">

@@ -4,7 +4,7 @@ import profile from "../../assets/profile.png";
 import Title from "../../components/Title";
 import SocialMediaLinks from "../../components/SocialMediaLinks";
 
-const About = ({ setVisible }) => {
+const About = ({ setAboutVisible }) => {
   const section = useRef(null);
   useEffect(() => {
     let options = {
@@ -13,11 +13,10 @@ const About = ({ setVisible }) => {
     };
     const observer = new IntersectionObserver(function (entries) {
       const { isIntersecting } = entries[0];
-      console.log(isIntersecting);
       if (isIntersecting) {
-        setVisible(true);
+        setAboutVisible(true);
       } else {
-        setVisible(false);
+        setAboutVisible(false);
       }
     }, options);
     observer.observe(section.current);
