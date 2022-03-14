@@ -50,6 +50,8 @@
   right: 0;
 }
 .bar .level-active {
+  transition-property: background-color, box-shadow;
+  transition: 1s;
   background-color: var(--primary-color);
   box-shadow: 0 0 1rem var(--primary-color);
 }
@@ -69,37 +71,136 @@
   );
 }
 .bar .width-0 {
-  width: 0%;
+  animation: width0 ease 2s forwards;
+  animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
 }
 .bar .width-4 {
-  width: 10%;
+  animation: width4 ease 2s forwards;
+  animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
 }
 .bar .width-8 {
-  width: 20%;
+  animation: width8 ease 2s forwards;
+  animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
 }
 .bar .width-12 {
-  width: 30%;
+  animation: width12 ease 2s forwards;
+  animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
 }
 .bar .width-16 {
-  width: 40%;
+  animation: width16 ease 2s forwards;
+  animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
 }
 .bar .width-20 {
-  width: 50%;
+  animation: width20 ease 2s forwards;
+  animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
 }
 .bar .width-24 {
-  width: 60%;
+  animation: width24 ease 2s forwards;
+  animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
 }
 .bar .width-28 {
-  width: 70%;
+  animation: width28 ease 2s forwards;
+  animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
 }
 .bar .width-32 {
-  width: 80%;
+  animation: width32 ease 2s forwards;
+  animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
 }
 .bar .width-36 {
-  width: 90%;
+  animation: width36 ease 2s forwards;
+  animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
 }
 .bar .width-40 {
-  width: 95%;
+  animation: width40 ease 2s forwards;
+  animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+}
+@keyframes width0 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 0%;
+  }
+}
+@keyframes width4 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 10%;
+  }
+}
+@keyframes width8 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 20%;
+  }
+}
+@keyframes width12 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 30%;
+  }
+}
+@keyframes width16 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 40%;
+  }
+}
+@keyframes width20 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+@keyframes width24 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+@keyframes width28 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@keyframes width32 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+@keyframes width36 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes width40 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 95%;
+  }
 }
 .levels {
   display: flex;
