@@ -9,6 +9,7 @@ const NavPage = ({
   projectsVisible,
   contactVisible,
   footerVisible,
+  handleClick,
 }) => {
   return (
     <ul
@@ -16,27 +17,44 @@ const NavPage = ({
       className={`nav-page  ${menuActive ? "nav-page-active" : null}`}
     >
       <li>
-        <a className={heroVisible ? "link-active" : null} href="#hero">
+        <a
+          onClick={() => handleClick()}
+          className={heroVisible ? "link-active" : null}
+          href="#hero"
+        >
           Home
         </a>
       </li>
       <li>
-        <a className={aboutVisible ? "link-active" : null} href="#about">
+        <a
+          onClick={() => handleClick()}
+          className={aboutVisible ? "link-active" : null}
+          href="#about"
+        >
           About
         </a>
       </li>
       <li>
-        <a className={skillVisible ? "link-active" : null} href="#skills">
+        <a
+          onClick={() => handleClick()}
+          className={skillVisible ? "link-active" : null}
+          href="#skills"
+        >
           Skills
         </a>
       </li>
       <li>
-        <a className={projectsVisible ? "link-active" : null} href="#projects">
+        <a
+          onClick={() => handleClick()}
+          className={projectsVisible ? "link-active" : null}
+          href="#projects"
+        >
           Projects
         </a>
       </li>
       <li>
         <a
+          onClick={() => handleClick()}
           className={contactVisible || footerVisible ? "link-active" : null}
           href="#contact"
         >

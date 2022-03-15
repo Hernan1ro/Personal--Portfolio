@@ -14,7 +14,7 @@ const Contact = ({ setContactVisible }) => {
   useEffect(() => {
     let options = {
       rootMargin: "50px",
-      threshold: 0.6,
+      threshold: 0.2,
     };
     const observer = new IntersectionObserver(function (entries) {
       const { isIntersecting } = entries[0];

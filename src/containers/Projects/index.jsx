@@ -14,7 +14,7 @@ const Projects = ({ filter, setFilter, setProjectsVisible }) => {
   useEffect(() => {
     let options = {
       rootMargin: "50px",
-      threshold: 0.1,
+      threshold: 0.02,
     };
     const observer = new IntersectionObserver(function (entries) {
       const { isIntersecting } = entries[0];

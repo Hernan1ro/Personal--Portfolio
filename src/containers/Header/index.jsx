@@ -35,6 +35,7 @@ const Header = ({
             contactVisible={contactVisible}
             menuActive={menuActive}
             footerVisible={footerVisible}
+            handleClick={handleClick}
           />
           {menuActive ? (
             <CloseIcon handleClick={handleClick} />
