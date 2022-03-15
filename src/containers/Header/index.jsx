@@ -23,7 +23,7 @@ const Header = ({
           <a href="#">
             <span>
               <strong>{"{ "}</strong>
-              {"Hernán"}
+              {"H"}
               <strong>{" }"}</strong>
             </span>
           </a>

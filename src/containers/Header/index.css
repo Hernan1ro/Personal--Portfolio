@@ -8,6 +8,19 @@
   width: 100%;
   z-index: 4;
 }
+.header__nav a {
+  transform: scale(1.2);
+  transition: transform 1s ease;
+}
+.header__nav a:active {
+  transform: scale(1.8);
+}
+@media (max-width: 768px) {
+  .header__nav a {
+    padding: 0 1rem;
+  }
+}
+
 span {
   color: var(--secondary-color);
   font-size: var(--xl);
