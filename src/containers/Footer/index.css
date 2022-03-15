@@ -20,9 +20,11 @@
   /* font-weight: bold; */
 }
 @media (max-width: 425px) {
-  .contact-info .location span,
-  .contact-info .email span {
+  .contact-info .location span {
     text-transform: capitalize;
+  }
+  .contact-info .email span {
+    text-transform: lowercase;
   }
 }
 .resume-info {

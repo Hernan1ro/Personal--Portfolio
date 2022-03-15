@@ -37,7 +37,7 @@ const Footer = ({ setFilter, setFooterVisible, footerVisible }) => {
         </div>
         <div className="email">
           <EmailIcon />
-          <span>Hernandmf@gmail.com</span>
+          <span>hdev@hernanmercado.com</span>
         </div>
       </div>
       <div className="resume-info container">

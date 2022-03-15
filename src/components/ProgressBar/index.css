@@ -11,6 +11,12 @@
     margin-top: 2rem;
   }
 }
+@media (max-width: 768px) {
+  .progress-bar {
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+}
 .progress-bar h4 {
   color: var(--secondary-color);
   font-weight: bold;
@@ -21,6 +27,11 @@
   flex-direction: column;
   gap: 4rem;
   align-items: center;
+}
+@media (max-width: 768px) {
+  .progress-bar__container {
+    gap: 2rem;
+  }
 }
 .bar {
   background-color: var(--soft-purple);

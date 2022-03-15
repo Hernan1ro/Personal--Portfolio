@@ -48,13 +48,13 @@
   gap: 2rem;
 }
 .contact-form h3 {
-  font-size: var(--lg);
+  font-size: var(--xl);
   /* text-transform: uppercase; */
-  color: var(--secondary-color);
+  color: var(--primary-color);
   text-align: left;
 }
 .contact-form span {
-  color: var(--primary-color);
+  color: var(--soft-purple);
   font-size: var(--md);
   font-weight: bold;
   /* text-transform: uppercase; */

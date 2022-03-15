@@ -22,7 +22,7 @@ const Hero = ({ setHeroVisible }) => {
     <section ref={section} id="hero" className="hero ">
       <div className="hero__container">
         <h1 className="hero__container-title">Hernán Mercado</h1>
-        <h3 className="hero__container-subtitle">Frontend Web Developer</h3>
+        <h3 className="hero__container-subtitle">Fullstack Web Developer</h3>
         <p>Ideas turned into code</p>
       </div>
     </section>

@@ -18,6 +18,8 @@
   box-shadow: 0 10px 10px rgb(126 15 255 / 20%), 0 0 22px rgb(149 0 243);
   background: var(--background-color);
   padding-bottom: 2rem;
+  border-radius: 1.5rem;
+  padding: 0 1rem;
 }
 @media (min-width: 768px) {
   .skills__container {
@@ -78,6 +80,7 @@
   .skills__description-container {
     grid-template-columns: 1fr;
     gap: 2rem;
+    margin: 2rem auto;
   }
 }
 .description-left {
@@ -92,7 +95,8 @@
   padding: 2rem;
   background: var(--secondary-color);
   border-radius: 50%;
-  min-height: 17rem;
+  min-height: 15rem;
+  width: 15rem;
   display: flex;
 }
 .description-left svg {
@@ -106,13 +110,22 @@
   font-size: var(--md);
   line-height: 1.5;
   width: 90%;
-  max-width: 30rem;
+}
+@media (min-width: 768px) {
+  .description-left p {
+    max-width: 30rem;
+  }
 }
 .description-right {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 2rem;
+}
+@media (max-width: 768px) {
+  .description-right {
+    flex-direction: column-reverse;
+  }
 }
 .description-right .projects,
 .description-right .experience {

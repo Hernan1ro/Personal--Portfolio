@@ -25,8 +25,13 @@
   }
 }
 .project-item:hover {
-  transform: scale(1.05);
   box-shadow: 0px 0px 10px var(--primary-color);
+}
+@media (min-width: 768px) {
+  .project-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px var(--primary-color);
+  }
 }
 
 .project-item__image-container {
