@@ -37,6 +37,11 @@
   align-items: baseline;
   border-bottom: solid 2px var(--primary-color);
 }
+@media (max-width: 500px) {
+  .resume-info {
+    place-items: flex-start;
+  }
+}
 .about-me {
   display: flex;
   flex-direction: column;
