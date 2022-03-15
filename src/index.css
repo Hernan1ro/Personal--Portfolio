@@ -22,14 +22,14 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-  transition-timing-function: ease-in-out;
+  /* transition-timing-function: ease-in-out;
   -moz-transition-timing-function: ease-in-out;
   -webkit-transition-timing-function: ease-in-out;
   -o-transition-timing-function: ease-in-out;
   transition-duration: 0.2s;
   -moz-transition-duration: 0.2s;
   -webkit-transition-duration: 0.2s;
-  -o-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s; */
 }
 html {
   font-size: 62.5%;
