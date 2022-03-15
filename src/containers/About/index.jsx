@@ -1,8 +1,8 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import "./index.css";
 import profile from "../../assets/profile.png";
 import Title from "../../components/Title";
-import SocialMediaLinks from "../../components/SocialMediaLinks/index.jsx";
+import SocialMediaLinks from "../../components/SocialMediaLinks";
 
 const About = ({ setAboutVisible }) => {
   const section = useRef(null);
