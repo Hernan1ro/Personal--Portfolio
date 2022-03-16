@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import "./index.css";
-import profile from "../../assets/profile.png";
+import profile from "../../assets/profile.jpg";
 import Title from "../../components/Title";
 import SocialMediaLinks from "../../components/SocialMediaLinks";
 
