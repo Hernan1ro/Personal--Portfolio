@@ -62,9 +62,23 @@ import taskManager from "../../assets/projects/task-manager.png";
 import taskManagerGif from "../../assets/projects/task-manager.gif";
 import blackjack from "../../assets/projects/blackjack.png";
 import blackjackGif from "../../assets/projects/blackjack.gif";
+import guitarla from "../../assets/projects/guitarLA.png";
+import guitarlaGif from "../../assets/projects/guitarLA.gif";
 
 // Dynamically setting project cards
 export const ProjectsData = [
+  {
+    id: uuidv4(),
+    name: "GuitarLA",
+    category: ["all", "react"],
+    image: guitarla,
+    gif: guitarlaGif,
+    description:
+      "This a web site for the GitarLA a guitar store with blogs, courses and more!",
+    icon: ["html", "css", "react", "nextjs"],
+    github: "https://github.com/Hernan1ro/GitarLA-app",
+    demo: "https://guitarla-next-hernan1ro.vercel.app/",
+  },
   {
     id: uuidv4(),
     name: "USA Machinery web",
