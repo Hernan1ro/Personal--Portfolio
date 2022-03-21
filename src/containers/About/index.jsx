@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import "./index.css";
 import profile from "../../assets/profile.jpg";
 import Title from "../../components/Title";
-import SocialMediaLinks from "../../components/SocialMediaLinks/index.jsx";
+import SocialMediaLinks from "../../components/SocialMediaLinks.jsx";
 
 const About = ({ setAboutVisible }) => {
   const section = useRef(null);
