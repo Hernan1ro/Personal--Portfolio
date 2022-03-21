@@ -1,4 +1,9 @@
 import { v4 as uuidv4 } from "uuid";
+
+import guitarla from "../../assets/projects/guitarLA.png";
+import guitarlaGif from "../../assets/projects/guitarLA.gif";
+import usaMachinery from "../../assets/projects/USAmachinery.png";
+import usaMachineryGif from "../../assets/projects/USAMachinery.gif";
 import finanApp from "../../assets/projects/Finantapp.png";
 import finanAppGif from "../../assets/projects/Finantapp.gif";
 import batatabit from "../../assets/projects/batatabit.png";
@@ -36,8 +41,6 @@ import theWebNews from "../../assets/projects/the-web-news.png";
 import theWebNewsGif from "../../assets/projects/the-web-news.gif";
 import travelAgency from "../../assets/projects/travel-agency.png";
 import travelAgencyGif from "../../assets/projects/travel-agency.gif";
-import usaMachinery from "../../assets/projects/USAmachinery.png";
-import usaMachineryGif from "../../assets/projects/USAmachinery.gif";
 import vetManager from "../../assets/projects/vet-manager.png";
 import vetManagerGif from "../../assets/projects/vet-manager.gif";
 import weekBudgetManager from "../../assets/projects/Weekly-budget-manager.png";
@@ -62,8 +65,6 @@ import taskManager from "../../assets/projects/task-manager.png";
 import taskManagerGif from "../../assets/projects/task-manager.gif";
 import blackjack from "../../assets/projects/blackjack.png";
 import blackjackGif from "../../assets/projects/blackjack.gif";
-import guitarla from "../../assets/projects/guitarLA.png";
-import guitarlaGif from "../../assets/projects/guitarLA.gif";
 
 // Dynamically setting project cards
 export const ProjectsData = [
