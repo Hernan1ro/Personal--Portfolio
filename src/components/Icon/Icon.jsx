@@ -38,10 +38,13 @@ import { Facebook } from "./Facebook";
 import { Youtube } from "./Youtube";
 import { Instagram } from "./Instagram";
 import { Mysql } from "./Mysql";
+import { Hernan } from "./Hernan";
 
 const Icon = (props) => {
   // using a switch statement to add icons
   switch (props.name.toLowerCase()) {
+    case "hernan":
+      return <Hernan {...props} />;
     case "html":
       return <Html {...props} />;
     case "facebook":

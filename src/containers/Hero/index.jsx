@@ -1,4 +1,5 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useEffect, useRef } from "react";
+import { Icon } from "../../components/Icon/Icon";
 import "./index.css";
 
 const Hero = ({ setHeroVisible }) => {
@@ -24,6 +25,7 @@ const Hero = ({ setHeroVisible }) => {
         <h1 className="hero__container-title">Hernán Mercado</h1>
         <h3 className="hero__container-subtitle">Fullstack Web Developer</h3>
         <p>Ideas turned into code</p>
+        <Icon name="hernan" width="15rem" />
       </div>
     </section>
   );
