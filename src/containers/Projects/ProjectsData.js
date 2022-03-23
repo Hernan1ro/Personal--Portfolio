@@ -1,16 +1,18 @@
 import { v4 as uuidv4 } from "uuid";
 
-import guitarla from "../../assets/projects/guitarLA.png";
+import beverageFinder from "../../assets/projects/beverage-finder.jpg";
+import beverageFinderGif from "../../assets/projects/beverage-finder.gif";
+import guitarla from "../../assets/projects/guitarLA.jpg";
 import guitarlaGif from "../../assets/projects/guitarLA.gif";
-import usaMachinery from "../../assets/projects/USAmachinery.png";
+import usaMachinery from "../../assets/projects/USAmachinery.jpg";
 import usaMachineryGif from "../../assets/projects/USAMachinery.gif";
-import finanApp from "../../assets/projects/Finantapp.png";
+import finanApp from "../../assets/projects/Finantapp.jpg";
 import finanAppGif from "../../assets/projects/Finantapp.gif";
-import batatabit from "../../assets/projects/batatabit.png";
+import batatabit from "../../assets/projects/batatabit.jpg";
 import batatabitGif from "../../assets/projects/batatabit.gif";
 import brand from "../../assets/projects/Brand.png";
 import brandGif from "../../assets/projects/Brand.gif";
-import petgram from "../../assets/projects/petgram.png";
+import petgram from "../../assets/projects/petgram.jpg";
 import petgramGif from "../../assets/projects/petgram.gif";
 import budgetManager from "../../assets/projects/budget-manager.png";
 import budgetManagerGif from "../../assets/projects/budget-manager.gif";
@@ -24,13 +26,13 @@ import crmIndexDB from "../../assets/projects/CRM-indexdb.png";
 import crmIndexDBGif from "../../assets/projects/CRM-indexdb.gif";
 import emailSimulator from "../../assets/projects/Email-simulator.png";
 import emailSimulatorGif from "../../assets/projects/Email-simulator.gif";
-import gatsbyHotel from "../../assets/projects/gatsby-hotel.png";
+import gatsbyHotel from "../../assets/projects/gatsby-hotel.jpg";
 import gatsbyHotelGif from "../../assets/projects/gatsby-hotel.gif";
-import imageSeeker from "../../assets/projects/Imagen-seeker.png";
+import imageSeeker from "../../assets/projects/Imagen-seeker.jpg";
 import imageSeekerGif from "../../assets/projects/Imagen-seeker.gif";
-import materializeWeb from "../../assets/projects/Materialize-website.png";
+import materializeWeb from "../../assets/projects/Materialize-website.jpg";
 import materializeWebGif from "../../assets/projects/Materialize-website.gif";
-import musicSeeker from "../../assets/projects/music-seeker.png";
+import musicSeeker from "../../assets/projects/music-seeker.jpg";
 import musicSeekerGif from "../../assets/projects/music-seeker.gif";
 import platziVideo from "../../assets/projects/Platzi-video.png";
 import platziVideoGif from "../../assets/projects/Platzi-video.gif";
@@ -39,9 +41,9 @@ import simonSays from "../../assets/projects/Simon-says-game.png";
 import simonSaysGif from "../../assets/projects/Simon-says-game.gif";
 import theWebNews from "../../assets/projects/the-web-news.png";
 import theWebNewsGif from "../../assets/projects/the-web-news.gif";
-import travelAgency from "../../assets/projects/travel-agency.png";
+import travelAgency from "../../assets/projects/travel-agency.jpg";
 import travelAgencyGif from "../../assets/projects/travel-agency.gif";
-import vetManager from "../../assets/projects/vet-manager.png";
+import vetManager from "../../assets/projects/vet-manager.jpg";
 import vetManagerGif from "../../assets/projects/vet-manager.gif";
 import weekBudgetManager from "../../assets/projects/Weekly-budget-manager.png";
 import weekBudgetManagerGif from "../../assets/projects/Weekly-budget-manager.gif";
@@ -51,13 +53,13 @@ import youtubeClon from "../../assets/projects/Youtube-clon.png";
 import youtubeClonGif from "../../assets/projects/Youtube-clon.gif";
 import loanCalculator from "../../assets/projects/Loan-calculator.png";
 import loanCalculatorGif from "../../assets/projects/Loan-calculator.gif";
-import platziConf from "../../assets/projects/Platzi-conf.png";
+import platziConf from "../../assets/projects/Platzi-conf.jpg";
 import platziConfGif from "../../assets/projects/Platzi-conf.gif";
 import weather from "../../assets/projects/weather-page.png";
 import weatherGif from "../../assets/projects/weather-page.gif";
 import storeApi from "../../assets/projects/store-api.png";
 import storeApiGif from "../../assets/projects/store-api.gif";
-import yardsale from "../../assets/projects/yard-sale.png";
+import yardsale from "../../assets/projects/yard-sale.jpg";
 import yardsaleGif from "../../assets/projects/yard-sale.gif";
 import confmerch from "../../assets/projects/conf-merch.png";
 import confmerchGif from "../../assets/projects/conf-merch.gif";
@@ -68,6 +70,18 @@ import blackjackGif from "../../assets/projects/blackjack.gif";
 
 // Dynamically setting project cards
 export const ProjectsData = [
+  {
+    id: uuidv4(),
+    name: "Beverage Finder",
+    category: ["all", "react"],
+    image: beverageFinder,
+    gif: beverageFinderGif,
+    description:
+      "A web app that allows users to find beverages information and their recipes",
+    icon: ["react"],
+    github: "https://github.com/Hernan1ro/beverage-finder",
+    demo: "https://beverage-finder.vercel.app/",
+  },
   {
     id: uuidv4(),
     name: "GuitarLA",
