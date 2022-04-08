@@ -74,7 +74,7 @@ export const skillData = [
     description:
       "JavaScript is commonly used to make dynamic pages, whose implementations allow client-side script to interact with the user. It is an interpreted programming language with object-oriented capabilities.",
     projectNumber: 18,
-    yearsExperience: 1,
+    yearsExperience: 2,
     level: 40,
   },
   {
@@ -134,7 +134,7 @@ export const skillData = [
     description:
       "Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser.",
     projectNumber: 5,
-    yearsExperience: 1,
+    yearsExperience: 0.6,
     level: 16,
   },
   {
@@ -149,7 +149,7 @@ export const skillData = [
     description:
       " Express.js, is a back end web application framework for Node.js. It is designed for building web applications and APIs.",
     projectNumber: 5,
-    yearsExperience: 1,
+    yearsExperience: 0.6,
     level: 16,
   },
   {
@@ -164,7 +164,7 @@ export const skillData = [
     description:
       "MongoDB is classified as a NoSQL database program. NoSQL is used as an alternative to traditional relational databases. MongoDB uses JSON-like documents with optional schemas.",
     projectNumber: 2,
-    yearsExperience: 1,
+    yearsExperience: 0.6,
     level: 12,
   },
   {
@@ -194,7 +194,7 @@ export const skillData = [
     description:
       "styled-components is a library for React that allows you to use component-level styles in your application that are written with a mixture of JavaScript and CSS using a technique called CSS-in-JS.",
     projectNumber: 2,
-    yearsExperience: 0.25,
+    yearsExperience: 0.5,
     level: 16,
   },
   {
@@ -225,7 +225,7 @@ export const skillData = [
     description:
       "Git is the most commonly used version control system. Git tracks the changes you make to files, and also makes collaboration easier, allowing changes by multiple people to all be merged into one source.",
     projectNumber: 27,
-    yearsExperience: 1,
+    yearsExperience: 3,
     level: 32,
   },
   {
@@ -283,7 +283,7 @@ export const skillData = [
     name: "language",
     title: "English",
     description:
-      "I speak both in English and Spanish with a high proficiency. ",
+      "I'm a self taught English learner, so I do speak fluent English both writen and spoken (B2 level)",
     projectNumber: "-",
     yearsExperience: 4,
     level: 40,
