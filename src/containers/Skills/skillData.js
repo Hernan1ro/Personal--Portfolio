@@ -12,8 +12,8 @@ export const skillData = [
     title: "HTML5",
     description:
       "Stands for Hyper Text Markup Language. It allows the modification of web pages, as well as making adjustments to their appearance. It is also used to structure and present content for the web.",
-    projectNumber: 15,
-    yearsExperience: 2,
+    projectNumber: 30,
+    yearsExperience: 4,
     level: 40,
   },
   {
@@ -27,8 +27,8 @@ export const skillData = [
     title: "CSS3",
     description:
       "A language that is used to illustrate the look, style, and format of a document written in any markup language. It is used to style and organize the layout of Web pages. CSS3 is the latest version of CSS. ",
-    projectNumber: 5,
-    yearsExperience: 1.5,
+    projectNumber: 40,
+    yearsExperience: 4,
     level: 40,
   },
   {
@@ -43,7 +43,7 @@ export const skillData = [
     description:
       "BEM is a highly useful, powerful, and simple naming convention that makes your front-end code easier to read and understand, easier to work with, easier to scale, more robust and explicit, and a lot more strict.",
     projectNumber: 10,
-    yearsExperience: 1,
+    yearsExperience: 2,
     level: 16,
   },
   {
@@ -74,7 +74,7 @@ export const skillData = [
     description:
       "JavaScript is commonly used to make dynamic pages, whose implementations allow client-side script to interact with the user. It is an interpreted programming language with object-oriented capabilities.",
     projectNumber: 18,
-    yearsExperience: 2,
+    yearsExperience: 3,
     level: 40,
   },
   {
@@ -164,7 +164,7 @@ export const skillData = [
     description:
       "MongoDB is classified as a NoSQL database program. NoSQL is used as an alternative to traditional relational databases. MongoDB uses JSON-like documents with optional schemas.",
     projectNumber: 2,
-    yearsExperience: 0.6,
+    yearsExperience: 0.3,
     level: 12,
   },
   {
@@ -179,7 +179,7 @@ export const skillData = [
     description:
       "Firebase is a cloud platform that includes services like analytics, authentication, realtime databases, configuration and file storage.",
     projectNumber: 1,
-    yearsExperience: 1,
+    yearsExperience: 0.25,
     level: 16,
   },
   {
@@ -240,7 +240,7 @@ export const skillData = [
     description:
       "Figma gives you all the tools you need for the design phase of the project, including vector tools which are capable of fully-fledged illustration, as well as prototyping capabilities.",
     projectNumber: 3,
-    yearsExperience: 0.5,
+    yearsExperience: 0.25,
     level: 16,
   },
   {
