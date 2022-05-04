@@ -297,9 +297,10 @@ export const skillData = [
     category: "backend",
     name: "mysql",
     title: "Mysql DB",
-    description: "I use Mysql to build my project's database",
+    description:
+      "MySQL is one of the most recognizable technologies in the modern big data ecosystem.",
     projectNumber: 2,
-    yearsExperience: 1,
+    yearsExperience: 0.25,
     level: 16,
   },
 ];
