@@ -94,18 +94,18 @@ export const ProjectsData = [
     github: "https://github.com/Hernan1ro/GitarLA-app",
     demo: "https://guitarla-next-hernan1ro.vercel.app/",
   },
-  {
-    id: uuidv4(),
-    name: "USA Machinery web",
-    category: ["all", "react"],
-    image: usaMachinery,
-    gif: usaMachineryGif,
-    description:
-      "Website of USA Machinery Company, buy/rent machinery and get different services.",
-    icon: ["html", "css", "react"],
-    github: "https://github.com/Hernan1ro/USA-machinery",
-    demo: "https://amazing-kirch-7a99e6.netlify.app/",
-  },
+  // {
+  //   id: uuidv4(),
+  //   name: "USA Machinery web",
+  //   category: ["all", "react"],
+  //   image: usaMachinery,
+  //   gif: usaMachineryGif,
+  //   description:
+  //     "Website of USA Machinery Company, buy/rent machinery and get different services.",
+  //   icon: ["html", "css", "react"],
+  //   github: "https://github.com/Hernan1ro/USA-machinery",
+  //   demo: "https://amazing-kirch-7a99e6.netlify.app/",
+  // },
   {
     id: uuidv4(),
     name: "Budget Manager App",
