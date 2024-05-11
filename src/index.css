@@ -5,8 +5,15 @@
   /* Colors */
   --primary-color: #9500ff;
   --background-color: #1e0033;
+  /* --primary-color: #ba9cff;
+  --primary-color1: #e59cff;
+  --primary-color2: #9cb2ff; */
+  --soft-gray: #efedfdb3;
+  --background-color: #030014;
   --soft-purple: #a783ba;
   --secondary-color: rgb(241, 239, 239);
+  --low-white: rgba(239, 237, 253, 0.7);
+  --white: #f4f0ff;
   --gray: gray;
   /* Sizes */
   --sm: 1.2rem;

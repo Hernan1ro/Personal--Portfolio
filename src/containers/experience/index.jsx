@@ -4,7 +4,7 @@ import profile from "../../assets/profile.jpg";
 import Title from "../../components/Title";
 import SocialMediaLinks from "../../components/SocialMediaLinks.jsx";
 
-const About = ({ setAboutVisible }) => {
+export const Experience = ({ setAboutVisible }) => {
   const section = useRef(null);
   useEffect(() => {
     let options = {
@@ -50,15 +50,13 @@ const About = ({ setAboutVisible }) => {
               and personal projects for the industry and community.
             </p>
           </div>
-          {/* <div className="about-cv-link">
+          <div className="about-cv-link">
             <a href="https://drive.google.com/uc?id=1sNAaHilxkUWjJs1VVE8Bwd1G3DRF0a7F&export=download">
               DOWNLOAD RESUME
             </a>
-          </div> */}
+          </div>
         </div>
       </div>
     </section>
   );
 };
-
-export default About;

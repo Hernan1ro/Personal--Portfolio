@@ -6,6 +6,7 @@ import Skills from "./containers/Skills";
 import Projects from "./containers/Projects";
 import Contact from "./containers/Contact";
 import Footer from "./containers/Footer";
+import { Experience } from "./containers/experience";
 
 function App() {
   const [filter, setFilter] = useState("all");
@@ -29,6 +30,7 @@ function App() {
       <Hero setHeroVisible={setHeroVisible} />
       <About setAboutVisible={setAboutVisible} />
       <Skills setSkillVisible={setSkillVisible} />
+      {/* <Experience setAboutVisible={setAboutVisible} /> */}
       <Projects
         setProjectsVisible={setProjectsVisible}
         filter={filter}
